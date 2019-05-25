@@ -1,0 +1,78 @@
+public interface AutowireCapableBeanFactory{
+	
+	<T> T createBean(Class<T> beanClass) throws Exception;
+	void autowireBean(Object existingBean);
+	void configureBean(Object existingBean,String beanName);
+	void autowire();
+	void applyBeanPropertyValues();
+	Object initializeBean();
+	Object applyBeanPostProcessorBeforeInitialization();
+	Object applyBeanPostProcessorAfterInitialization();
+	destroyBean();
+}
+
+public interface ConfigurableBeanFactory extends 
+							HiiiiiiiBeanFactory,SingletonBeanRegistry{
+	
+	void setParentBeanFactory();
+	set get BeanClassLoader
+	set get TempClassLoader
+	set is  CacheBeanMetadata
+	set get BeanExpressionResolver
+	set get ConversionService
+	addPropertyEditorRegistrar
+	registerCustomEditor
+	set get TypeConverter
+	void addBeanPostProcessor(BeanPostProcessor);
+	boolean isFactoryBean(String name);
+	void setCurrentlyInCreation(String beanName,boolean inCreation);
+	boolean isCurrentlyInCreation(String beanName);
+	void registerDependentBean(String beanName,String dependentBeanName);
+	String[] getDependentBeans(String beanName);
+	void destroySingletons();
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

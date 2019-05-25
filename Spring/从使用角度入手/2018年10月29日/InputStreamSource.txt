@@ -1,0 +1,30 @@
+public interface InputStreamSource{
+	InputStream getInputStream();
+}
+
+public interface Resource extends InputStreamSource{
+
+	boolean exists();
+	URL getURL();
+	URI getURI();
+	File getFile();
+	int contentLength();
+	long lastModified();
+	String getFileName();
+	String getDescription();
+}
+
+public interface ResourceLoader{
+	
+	Resource getResource(String path);
+	ClassLoader getClassLoader();
+}
+
+public class DefaultResourceLoader implements ResourceLoader{
+	
+}
+
+public interface ResourcePatternResolver implements ResourceLoader{
+	
+	Resource[] getResources(String pattern);
+}

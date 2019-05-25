@@ -1,0 +1,4 @@
+2018-12-11 11:09:52,303 INFO [main] Main.main(65) | User [name=, money=1]
+2018-12-11 11:10:11,022 INFO [main] Main.main(65) | com.zk.model.User@1f38edc
+2018-12-11 11:10:45,214 INFO [main] Main.main(65) | 16249706
+2018-12-11 11:10:45,216 INFO [main] Main.main(66) | com.zk.model.User@f7f36a

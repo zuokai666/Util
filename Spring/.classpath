@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="libs/spring-beans-5.1.1.RELEASE.jar" sourcepath="sources/spring-beans-5.1.1.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="libs/spring-context-5.1.1.RELEASE.jar" sourcepath="sources/spring-context-5.1.1.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="libs/spring-core-5.1.1.RELEASE.jar" sourcepath="sources/spring-core-5.1.1.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="libs/log4j-1.2.13.jar"/>
+	<classpathentry kind="lib" path="libs/commons-logging-1.1.jar"/>
+	<classpathentry kind="lib" path="libs/spring-expression-5.1.1.RELEASE.jar"/>
+	<classpathentry kind="lib" path="libs/spring-aop-5.1.1.RELEASE.jar" sourcepath="sources/spring-aop-5.1.1.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="libs_weaver/com.springsource.org.aspectj.weaver-1.6.8.RELEASE.jar" sourcepath="libs_weaver/com.springsource.org.aspectj.weaver-sources-1.6.8.RELEASE.jar"/>
+	<classpathentry kind="lib" path="libs/spring-webmvc-5.1.1.RELEASE.jar" sourcepath="sources/spring-webmvc-5.1.1.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="libs/spring-web-5.1.1.RELEASE.jar" sourcepath="sources/spring-web-5.1.1.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="libs/spring-websocket-5.1.1.RELEASE.jar"/>
+	<classpathentry kind="lib" path="libs_servlet/javax.servlet-api-4.0.1.jar" sourcepath="libs_servlet/javax.servlet-api-4.0.1-sources.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

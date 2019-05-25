@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:context="http://www.springframework.org/schema/context"
+    xmlns:tx="http://www.springframework.org/schema/tx"
+    xmlns:aop="http://www.springframework.org/schema/aop"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans
+				        http://www.springframework.org/schema/beans/spring-beans.xsd
+				        http://www.springframework.org/schema/context
+				        http://www.springframework.org/schema/context/spring-context.xsd
+				        http://www.springframework.org/schema/tx  
+				        http://www.springframework.org/schema/tx/spring-tx.xsd
+				        http://www.springframework.org/schema/aop
+				        http://www.springframework.org/schema/aop/spring-aop.xsd">
+ 	
+	<!-- 	开启annotation配置 -->
+    <context:annotation-config/>
+	<!--    扫描以com开头的包里边的bean -->
+    <context:component-scan base-package="com"/>
+    
+    <bean id="dataSource" class="org.apache.commons.dbcp2.BasicDataSource" destroy-method="close">
+        <property name="driverClassName" value="com.mysql.jdbc.Driver"/>
+        <property name="url" value="jdbc:mysql://localhost:3306/bls"/>
+        <property name="username" value="root"/>
+        <property name="password" value="ytfmnm"/>
+    </bean>
+    
+    <bean id="sessionFactory" class="org.springframework.orm.hibernate5.LocalSessionFactoryBean">
+        <property name="dataSource" ref="dataSource"/>
+	<!--     Annotation方式 -->
+	<!-- 		<property name="annotatedClasses"> -->
+	<!-- 			<list> -->
+	<!-- 				<value>com.test_spring.mode.User</value> -->
+	<!-- 				<value>com.test_spring.mode.Log</value> -->
+	<!-- 			</list> -->
+	<!-- 		</property> -->
+	<!-- 		包扫描添加映射类 -->
+		<property name="packagesToScan">
+			<list>
+				<value>com.test_spring.mode</value>
+			</list>
+		</property>
+		
+	<!-- 		xml方式 -->
+	<!-- 		<property name="mappingResources"> -->
+	<!--             <list> -->
+	<!--                 <value>product.hbm.xml</value> -->
+	<!--             </list> -->
+	<!--         </property> -->
+		
+        <property name="hibernateProperties">
+            <props>
+            	<prop key="hibernate.dialect">org.hibernate.dialect.MySQL5InnoDBDialect</prop>
+            	<prop key="hibernate.show_sql">true</prop>
+            	<prop key="hibernate.format_sql">true</prop>
+            	<prop key="hibernate.show_sql">true</prop>
+            	<prop key="hibernate.hbm2ddl.auto">create</prop>
+            </props>
+        </property> 
+    </bean>
+    
+	<!--         事务管理 Annotation配置  -->  
+	<!--     	<bean id="txManager" class="org.springframework.orm.hibernate5.HibernateTransactionManager">   -->
+	<!--        	 	<property name="sessionFactory" ref="sessionFactory"/>   -->
+	<!--     	</bean>   -->
+	<!--      开启annotation事务管理    -->
+	<!--     	<tx:annotation-driven transaction-manager="txManager"/>  -->
+	 
+	<!-- 	事务管理XML配置  这是Hibernate的管理事务类 -->
+	<bean id="txManager" class="org.springframework.orm.hibernate5.HibernateTransactionManager">
+    	<property name="sessionFactory" ref="sessionFactory"/>
+	</bean>
+		
+	<!-- 	利用AOP方式给方法加上事务管理 -->
+	<aop:config>
+		<aop:pointcut expression="execution(public * com.test_spring..service..*.*(..))" id="txPo"/>
+		<aop:advisor advice-ref="txPoo" pointcut-ref="txPo"/>
+	</aop:config>
+	
+	<!-- 	具体定义哪些方法需要加上事务管理 -->
+	<tx:advice id="txPoo" transaction-manager="txManager">
+		<tx:attributes>
+			<tx:method name="add"/>
+		</tx:attributes>
+	</tx:advice>
+</beans>

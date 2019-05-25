@@ -1,0 +1,78 @@
+org.springframework.core.convert.ConversionService
+org.springframework.beans.TypeConverter
+
+org.springframework.core.convert.converter.Converter<S, T> obj - > obj 转换器接口，具体的实现类有很多
+org.springframework.core.convert.converter.GenericConverter 通用转换器接口
+org.springframework.core.convert.converter.ConditionalConverter 转换条件类，判断这个GenericConverter对象是否可以进行转换
+org.springframework.core.convert.converter.ConverterFactory<S, R> 转换器工厂接口，将固定的S转换为R类型及它的子类型，为了减少转换器个数
+
+org.springframework.format.Formatter<T>     格式化接口
+org.springframework.format.Printer<T> 		T -> string 打印器接口
+org.springframework.format.Parser<T>  		string -> T 解析器接口
+
+通用转换器GenericConverter就是一个对外提供服务的门面接口
+
+Converter的注册发生在GenericConversionService类中。也就是里面各种不同的重载方法addConverter().
+Formatter的注册发生在FormattingConversionService类中。也就是里面各种不同的addFormatterXXX()方法。
+
+public interface Formatter<T> extends Printer<T>, Parser<T> {
+	
+}
+
+public class FormattingConversionServiceFactoryBean
+		implements FactoryBean<FormattingConversionService>, EmbeddedValueResolverAware, InitializingBean {
+		
+		
+}
+
+org.springframework.beans.TypeConverterDelegate
+
+public <T> T convertIfNecessary(
+	String propertyName,
+	Object oldValue,
+	Object newValue,
+	Class<T> requiredType,
+	TypeDescriptor typeDescriptor){
+		IOC类型转换分为以下4个步骤：
+		1.通过Java中的PropertyEditor的内省机制对Spring的对象属性进行类型转换
+		2.通过Spring中的ConversionService的自定义类型转换实现对象属性进行类型转换
+		3.通过一般类型判断对对象的属性进行类型转换(Array, Collection, Map, String, Number, Optional)
+		4.报错(不遵循COC – 约定大于配置)。
+}
+
+
+
+
+
+
+
+
+org.springframework.core.convert.support.StringToBooleanConverter
+
+
+org.springframework.core.io.ResourceEditor -> PropertyEditorSupport -> PropertyEditor
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

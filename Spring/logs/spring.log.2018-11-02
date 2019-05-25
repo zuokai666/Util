@@ -1,0 +1,369 @@
+2018-11-02 10:25:17,062 TRACE [main] ClassPathXmlApplicationContext.prepareRefresh(587) | Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@530c12, started on Fri Nov 02 10:25:17 CST 2018
+2018-11-02 10:25:17,114 TRACE [main] XmlBeanDefinitionReader.loadBeanDefinitions(317) | Loading XML bean definitions from class path resource [com/zk/demo1025/applicationContext.xml]
+2018-11-02 10:25:17,128 TRACE [main] DefaultDocumentLoader.loadDocument(74) | Using JAXP provider [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderFactoryImpl]
+2018-11-02 10:25:17,200 TRACE [main] DefaultNamespaceHandlerResolver.getHandlerMappings(160) | Loading NamespaceHandler mappings from [META-INF/spring.handlers]
+2018-11-02 10:25:17,204 TRACE [main] DefaultNamespaceHandlerResolver.getHandlerMappings(166) | Loaded NamespaceHandler mappings: {http://www.springframework.org/schema/p=org.springframework.beans.factory.xml.SimplePropertyNamespaceHandler, http://www.springframework.org/schema/util=org.springframework.beans.factory.xml.UtilNamespaceHandler, http://www.springframework.org/schema/jee=org.springframework.ejb.config.JeeNamespaceHandler, http://www.springframework.org/schema/aop=org.springframework.aop.config.AopNamespaceHandler, http://www.springframework.org/schema/cache=org.springframework.cache.config.CacheNamespaceHandler, http://www.springframework.org/schema/c=org.springframework.beans.factory.xml.SimpleConstructorNamespaceHandler, http://www.springframework.org/schema/task=org.springframework.scheduling.config.TaskNamespaceHandler, http://www.springframework.org/schema/lang=org.springframework.scripting.config.LangNamespaceHandler, http://www.springframework.org/schema/context=org.springframework.context.config.ContextNamespaceHandler}
+2018-11-02 10:25:17,230 DEBUG [main] XmlBeanDefinitionReader.doLoadBeanDefinitions(395) | Loaded 7 bean definitions from class path resource [com/zk/demo1025/applicationContext.xml]
+2018-11-02 10:25:17,230 TRACE [main] XmlBeanDefinitionReader.loadBeanDefinitions(229) | Loaded 7 bean definitions from location pattern [classpath:com/zk/demo1025/applicationContext.xml]
+2018-11-02 10:25:17,253 DEBUG [main] DefaultListableBeanFactory.getSingleton(213) | Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2018-11-02 10:25:17,254 TRACE [main] DefaultListableBeanFactory.createBean(463) | Creating instance of bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2018-11-02 10:25:17,270 TRACE [main] DefaultListableBeanFactory.doCreateBean(566) | Eagerly caching bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor' to allow for resolving potential circular references
+2018-11-02 10:25:17,273 TRACE [main] DefaultListableBeanFactory.createBean(500) | Finished creating instance of bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2018-11-02 10:25:17,314 DEBUG [main] DefaultListableBeanFactory.getSingleton(213) | Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+2018-11-02 10:25:17,314 TRACE [main] DefaultListableBeanFactory.createBean(463) | Creating instance of bean 'org.springframework.context.event.internalEventListenerProcessor'
+2018-11-02 10:25:17,318 TRACE [main] DefaultListableBeanFactory.doCreateBean(566) | Eagerly caching bean 'org.springframework.context.event.internalEventListenerProcessor' to allow for resolving potential circular references
+2018-11-02 10:25:17,318 TRACE [main] DefaultListableBeanFactory.createBean(500) | Finished creating instance of bean 'org.springframework.context.event.internalEventListenerProcessor'
+2018-11-02 10:25:17,319 DEBUG [main] DefaultListableBeanFactory.getSingleton(213) | Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2018-11-02 10:25:17,319 TRACE [main] DefaultListableBeanFactory.createBean(463) | Creating instance of bean 'org.springframework.context.event.internalEventListenerFactory'
+2018-11-02 10:25:17,319 TRACE [main] DefaultListableBeanFactory.doCreateBean(566) | Eagerly caching bean 'org.springframework.context.event.internalEventListenerFactory' to allow for resolving potential circular references
+2018-11-02 10:25:17,319 TRACE [main] DefaultListableBeanFactory.createBean(500) | Finished creating instance of bean 'org.springframework.context.event.internalEventListenerFactory'
+2018-11-02 10:25:17,321 DEBUG [main] DefaultListableBeanFactory.getSingleton(213) | Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2018-11-02 10:25:17,322 TRACE [main] DefaultListableBeanFactory.createBean(463) | Creating instance of bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2018-11-02 10:25:17,322 TRACE [main] DefaultListableBeanFactory.doCreateBean(566) | Eagerly caching bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor' to allow for resolving potential circular references
+2018-11-02 10:25:17,322 TRACE [main] DefaultListableBeanFactory.createBean(500) | Finished creating instance of bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2018-11-02 10:25:17,323 DEBUG [main] DefaultListableBeanFactory.getSingleton(213) | Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2018-11-02 10:25:17,323 TRACE [main] DefaultListableBeanFactory.createBean(463) | Creating instance of bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2018-11-02 10:25:17,326 TRACE [main] DefaultListableBeanFactory.doCreateBean(566) | Eagerly caching bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor' to allow for resolving potential circular references
+2018-11-02 10:25:17,326 TRACE [main] DefaultListableBeanFactory.createBean(500) | Finished creating instance of bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2018-11-02 10:25:17,328 TRACE [main] ClassPathXmlApplicationContext.initMessageSource(738) | No 'messageSource' bean, using [Empty MessageSource]
+2018-11-02 10:25:17,329 TRACE [main] ClassPathXmlApplicationContext.initApplicationEventMulticaster(761) | No 'applicationEventMulticaster' bean, using [SimpleApplicationEventMulticaster]
+2018-11-02 10:25:17,330 TRACE [main] DefaultListableBeanFactory.preInstantiateSingletons(815) | Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@153f17c: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.event.internalEventListenerProcessor,org.springframework.context.event.internalEventListenerFactory,taskRef,task]; root of factory hierarchy
+2018-11-02 10:25:17,331 TRACE [main] DefaultListableBeanFactory.doGetBean(254) | Returning cached instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2018-11-02 10:25:17,331 TRACE [main] DefaultListableBeanFactory.doGetBean(254) | Returning cached instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2018-11-02 10:25:17,331 TRACE [main] DefaultListableBeanFactory.doGetBean(254) | Returning cached instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2018-11-02 10:25:17,331 TRACE [main] DefaultListableBeanFactory.doGetBean(254) | Returning cached instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+2018-11-02 10:25:17,331 TRACE [main] DefaultListableBeanFactory.doGetBean(254) | Returning cached instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2018-11-02 10:25:17,331 DEBUG [main] DefaultListableBeanFactory.getSingleton(213) | Creating shared instance of singleton bean 'taskRef'
+2018-11-02 10:25:17,332 TRACE [main] DefaultListableBeanFactory.createBean(463) | Creating instance of bean 'taskRef'
+2018-11-02 10:25:17,337 TRACE [main] DefaultListableBeanFactory.doCreateBean(566) | Eagerly caching bean 'taskRef' to allow for resolving potential circular references
+2018-11-02 10:25:17,337 TRACE [main] DefaultListableBeanFactory.createBean(500) | Finished creating instance of bean 'taskRef'
+2018-11-02 10:25:17,337 DEBUG [main] DefaultListableBeanFactory.getSingleton(213) | Creating shared instance of singleton bean 'task'
+2018-11-02 10:25:17,337 TRACE [main] DefaultListableBeanFactory.createBean(463) | Creating instance of bean 'task'
+2018-11-02 10:25:17,338 TRACE [main] DefaultListableBeanFactory.doCreateBean(566) | Eagerly caching bean 'task' to allow for resolving potential circular references
+2018-11-02 10:25:17,339 TRACE [main] DefaultListableBeanFactory.doGetBean(254) | Returning cached instance of singleton bean 'taskRef'
+2018-11-02 10:25:17,344 TRACE [main] SpringFactoriesLoader.loadFactories(101) | Loaded [org.springframework.beans.BeanInfoFactory] names: [org.springframework.beans.ExtendedBeanInfoFactory]
+2018-11-02 10:25:17,344 TRACE [main] CachedIntrospectionResults.<init>(271) | Getting BeanInfo for class [com.zk.demo1025.Task]
+2018-11-02 10:25:17,347 TRACE [main] CachedIntrospectionResults.<init>(276) | Caching PropertyDescriptors for class [com.zk.demo1025.Task]
+2018-11-02 10:25:17,347 TRACE [main] CachedIntrospectionResults.<init>(289) | Found bean property 'class' of type [java.lang.Class]
+2018-11-02 10:25:17,364 TRACE [main] CachedIntrospectionResults.<init>(289) | Found bean property 'taskRef' of type [com.zk.demo1025.TaskRef]
+2018-11-02 10:25:17,369 TRACE [main] DefaultListableBeanFactory.createBean(500) | Finished creating instance of bean 'task'
+2018-11-02 10:25:17,373 TRACE [main] EventListenerMethodProcessor.processBean(161) | No @EventListener annotations found on bean class: com.zk.demo1025.TaskRef
+2018-11-02 10:25:17,374 TRACE [main] EventListenerMethodProcessor.processBean(161) | No @EventListener annotations found on bean class: com.zk.demo1025.Task
+2018-11-02 10:25:17,377 TRACE [main] EventListenerMethodProcessor.processBean(161) | No @EventListener annotations found on bean class: java.util.Properties
+2018-11-02 10:25:17,378 TRACE [main] EventListenerMethodProcessor.processBean(161) | No @EventListener annotations found on bean class: java.util.Collections$UnmodifiableMap
+2018-11-02 10:25:17,379 TRACE [main] ClassPathXmlApplicationContext.initLifecycleProcessor(787) | No 'lifecycleProcessor' bean, using [DefaultLifecycleProcessor]
+2018-11-02 10:25:17,379 TRACE [main] DefaultListableBeanFactory.doGetBean(254) | Returning cached instance of singleton bean 'lifecycleProcessor'
+2018-11-02 10:25:17,382 TRACE [main] PropertySourcesPropertyResolver.getProperty(82) | Searching for key 'spring.liveBeansView.mbeanDomain' in PropertySource 'systemProperties'
+2018-11-02 10:25:17,383 TRACE [main] PropertySourcesPropertyResolver.getProperty(82) | Searching for key 'spring.liveBeansView.mbeanDomain' in PropertySource 'systemEnvironment'
+2018-11-02 10:25:17,383 TRACE [main] PropertySourcesPropertyResolver.getProperty(96) | Could not find key 'spring.liveBeansView.mbeanDomain' in any property source
+2018-11-02 10:25:17,387 TRACE [main] DefaultListableBeanFactory.doGetBean(254) | Returning cached instance of singleton bean 'task'
+2018-11-02 10:25:17,388 INFO [main] Main.main(17) | {task=com.zk.demo1025.Task@b10754}
+2018-11-02 10:31:22,181 TRACE [main] ClassPathXmlApplicationContext.prepareRefresh(587) | Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@530c12, started on Fri Nov 02 10:31:22 CST 2018
+2018-11-02 10:31:22,232 TRACE [main] XmlBeanDefinitionReader.loadBeanDefinitions(317) | Loading XML bean definitions from class path resource [com/zk/demo1025/applicationContext.xml]
+2018-11-02 10:31:22,246 TRACE [main] DefaultDocumentLoader.loadDocument(74) | Using JAXP provider [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderFactoryImpl]
+2018-11-02 10:31:22,323 TRACE [main] DefaultNamespaceHandlerResolver.getHandlerMappings(160) | Loading NamespaceHandler mappings from [META-INF/spring.handlers]
+2018-11-02 10:31:22,324 TRACE [main] DefaultNamespaceHandlerResolver.getHandlerMappings(166) | Loaded NamespaceHandler mappings: {http://www.springframework.org/schema/p=org.springframework.beans.factory.xml.SimplePropertyNamespaceHandler, http://www.springframework.org/schema/util=org.springframework.beans.factory.xml.UtilNamespaceHandler, http://www.springframework.org/schema/jee=org.springframework.ejb.config.JeeNamespaceHandler, http://www.springframework.org/schema/aop=org.springframework.aop.config.AopNamespaceHandler, http://www.springframework.org/schema/cache=org.springframework.cache.config.CacheNamespaceHandler, http://www.springframework.org/schema/c=org.springframework.beans.factory.xml.SimpleConstructorNamespaceHandler, http://www.springframework.org/schema/task=org.springframework.scheduling.config.TaskNamespaceHandler, http://www.springframework.org/schema/lang=org.springframework.scripting.config.LangNamespaceHandler, http://www.springframework.org/schema/context=org.springframework.context.config.ContextNamespaceHandler}
+2018-11-02 10:31:22,351 DEBUG [main] XmlBeanDefinitionReader.doLoadBeanDefinitions(395) | Loaded 7 bean definitions from class path resource [com/zk/demo1025/applicationContext.xml]
+2018-11-02 10:31:22,351 TRACE [main] XmlBeanDefinitionReader.loadBeanDefinitions(229) | Loaded 7 bean definitions from location pattern [classpath:com/zk/demo1025/applicationContext.xml]
+2018-11-02 10:31:22,386 DEBUG [main] DefaultListableBeanFactory.getSingleton(213) | Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2018-11-02 10:31:22,386 TRACE [main] DefaultListableBeanFactory.createBean(463) | Creating instance of bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2018-11-02 10:31:22,405 TRACE [main] DefaultListableBeanFactory.doCreateBean(566) | Eagerly caching bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor' to allow for resolving potential circular references
+2018-11-02 10:31:22,407 TRACE [main] DefaultListableBeanFactory.createBean(500) | Finished creating instance of bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2018-11-02 10:31:22,477 DEBUG [main] DefaultListableBeanFactory.getSingleton(213) | Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+2018-11-02 10:31:22,477 TRACE [main] DefaultListableBeanFactory.createBean(463) | Creating instance of bean 'org.springframework.context.event.internalEventListenerProcessor'
+2018-11-02 10:31:22,478 TRACE [main] DefaultListableBeanFactory.doCreateBean(566) | Eagerly caching bean 'org.springframework.context.event.internalEventListenerProcessor' to allow for resolving potential circular references
+2018-11-02 10:31:22,479 TRACE [main] DefaultListableBeanFactory.createBean(500) | Finished creating instance of bean 'org.springframework.context.event.internalEventListenerProcessor'
+2018-11-02 10:31:22,479 DEBUG [main] DefaultListableBeanFactory.getSingleton(213) | Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2018-11-02 10:31:22,479 TRACE [main] DefaultListableBeanFactory.createBean(463) | Creating instance of bean 'org.springframework.context.event.internalEventListenerFactory'
+2018-11-02 10:31:22,479 TRACE [main] DefaultListableBeanFactory.doCreateBean(566) | Eagerly caching bean 'org.springframework.context.event.internalEventListenerFactory' to allow for resolving potential circular references
+2018-11-02 10:31:22,479 TRACE [main] DefaultListableBeanFactory.createBean(500) | Finished creating instance of bean 'org.springframework.context.event.internalEventListenerFactory'
+2018-11-02 10:31:22,481 DEBUG [main] DefaultListableBeanFactory.getSingleton(213) | Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2018-11-02 10:31:22,481 TRACE [main] DefaultListableBeanFactory.createBean(463) | Creating instance of bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2018-11-02 10:31:22,482 TRACE [main] DefaultListableBeanFactory.doCreateBean(566) | Eagerly caching bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor' to allow for resolving potential circular references
+2018-11-02 10:31:22,482 TRACE [main] DefaultListableBeanFactory.createBean(500) | Finished creating instance of bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2018-11-02 10:31:22,482 DEBUG [main] DefaultListableBeanFactory.getSingleton(213) | Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2018-11-02 10:31:22,482 TRACE [main] DefaultListableBeanFactory.createBean(463) | Creating instance of bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2018-11-02 10:31:22,485 TRACE [main] DefaultListableBeanFactory.doCreateBean(566) | Eagerly caching bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor' to allow for resolving potential circular references
+2018-11-02 10:31:22,485 TRACE [main] DefaultListableBeanFactory.createBean(500) | Finished creating instance of bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2018-11-02 10:31:22,486 TRACE [main] ClassPathXmlApplicationContext.initMessageSource(738) | No 'messageSource' bean, using [Empty MessageSource]
+2018-11-02 10:31:22,488 TRACE [main] ClassPathXmlApplicationContext.initApplicationEventMulticaster(761) | No 'applicationEventMulticaster' bean, using [SimpleApplicationEventMulticaster]
+2018-11-02 10:31:22,489 TRACE [main] DefaultListableBeanFactory.preInstantiateSingletons(815) | Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@153f17c: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.event.internalEventListenerProcessor,org.springframework.context.event.internalEventListenerFactory,taskRef,task]; root of factory hierarchy
+2018-11-02 10:31:22,489 TRACE [main] DefaultListableBeanFactory.doGetBean(254) | Returning cached instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2018-11-02 10:31:22,489 TRACE [main] DefaultListableBeanFactory.doGetBean(254) | Returning cached instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2018-11-02 10:31:22,489 TRACE [main] DefaultListableBeanFactory.doGetBean(254) | Returning cached instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2018-11-02 10:31:22,489 TRACE [main] DefaultListableBeanFactory.doGetBean(254) | Returning cached instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+2018-11-02 10:31:22,490 TRACE [main] DefaultListableBeanFactory.doGetBean(254) | Returning cached instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2018-11-02 10:31:22,490 DEBUG [main] DefaultListableBeanFactory.getSingleton(213) | Creating shared instance of singleton bean 'taskRef'
+2018-11-02 10:31:22,490 TRACE [main] DefaultListableBeanFactory.createBean(463) | Creating instance of bean 'taskRef'
+2018-11-02 10:31:22,494 TRACE [main] DefaultListableBeanFactory.doCreateBean(566) | Eagerly caching bean 'taskRef' to allow for resolving potential circular references
+2018-11-02 10:31:22,494 TRACE [main] DefaultListableBeanFactory.createBean(500) | Finished creating instance of bean 'taskRef'
+2018-11-02 10:31:22,495 DEBUG [main] DefaultListableBeanFactory.getSingleton(213) | Creating shared instance of singleton bean 'task'
+2018-11-02 10:31:22,495 TRACE [main] DefaultListableBeanFactory.createBean(463) | Creating instance of bean 'task'
+2018-11-02 10:31:22,495 TRACE [main] DefaultListableBeanFactory.doCreateBean(566) | Eagerly caching bean 'task' to allow for resolving potential circular references
+2018-11-02 10:31:22,496 TRACE [main] DefaultListableBeanFactory.doGetBean(254) | Returning cached instance of singleton bean 'taskRef'
+2018-11-02 10:31:22,499 TRACE [main] SpringFactoriesLoader.loadFactories(101) | Loaded [org.springframework.beans.BeanInfoFactory] names: [org.springframework.beans.ExtendedBeanInfoFactory]
+2018-11-02 10:31:22,500 TRACE [main] CachedIntrospectionResults.<init>(271) | Getting BeanInfo for class [com.zk.demo1025.Task]
+2018-11-02 10:31:22,502 TRACE [main] CachedIntrospectionResults.<init>(276) | Caching PropertyDescriptors for class [com.zk.demo1025.Task]
+2018-11-02 10:31:22,502 TRACE [main] CachedIntrospectionResults.<init>(289) | Found bean property 'class' of type [java.lang.Class]
+2018-11-02 10:31:22,507 TRACE [main] CachedIntrospectionResults.<init>(289) | Found bean property 'taskRef' of type [com.zk.demo1025.TaskRef]
+2018-11-02 10:31:22,513 TRACE [main] DefaultListableBeanFactory.createBean(500) | Finished creating instance of bean 'task'
+2018-11-02 10:31:22,516 TRACE [main] EventListenerMethodProcessor.processBean(161) | No @EventListener annotations found on bean class: com.zk.demo1025.TaskRef
+2018-11-02 10:31:22,516 TRACE [main] EventListenerMethodProcessor.processBean(161) | No @EventListener annotations found on bean class: com.zk.demo1025.Task
+2018-11-02 10:31:22,518 TRACE [main] EventListenerMethodProcessor.processBean(161) | No @EventListener annotations found on bean class: java.util.Properties
+2018-11-02 10:31:22,519 TRACE [main] EventListenerMethodProcessor.processBean(161) | No @EventListener annotations found on bean class: java.util.Collections$UnmodifiableMap
+2018-11-02 10:31:22,520 TRACE [main] ClassPathXmlApplicationContext.initLifecycleProcessor(787) | No 'lifecycleProcessor' bean, using [DefaultLifecycleProcessor]
+2018-11-02 10:31:22,520 TRACE [main] DefaultListableBeanFactory.doGetBean(254) | Returning cached instance of singleton bean 'lifecycleProcessor'
+2018-11-02 10:31:22,523 TRACE [main] PropertySourcesPropertyResolver.getProperty(82) | Searching for key 'spring.liveBeansView.mbeanDomain' in PropertySource 'systemProperties'
+2018-11-02 10:31:22,523 TRACE [main] PropertySourcesPropertyResolver.getProperty(82) | Searching for key 'spring.liveBeansView.mbeanDomain' in PropertySource 'systemEnvironment'
+2018-11-02 10:31:22,523 TRACE [main] PropertySourcesPropertyResolver.getProperty(96) | Could not find key 'spring.liveBeansView.mbeanDomain' in any property source
+2018-11-02 10:31:22,528 TRACE [main] DefaultListableBeanFactory.doGetBean(254) | Returning cached instance of singleton bean 'task'
+2018-11-02 10:31:22,528 INFO [main] Main.main(17) | {task=com.zk.demo1025.Task@9ba3fb}
+2018-11-02 10:31:22,528 INFO [main] Main.main(18) | @java.lang.Deprecated()
+2018-11-02 10:31:36,910 TRACE [main] ClassPathXmlApplicationContext.prepareRefresh(587) | Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@530c12, started on Fri Nov 02 10:31:36 CST 2018
+2018-11-02 10:31:36,959 TRACE [main] XmlBeanDefinitionReader.loadBeanDefinitions(317) | Loading XML bean definitions from class path resource [com/zk/demo1025/applicationContext.xml]
+2018-11-02 10:31:36,973 TRACE [main] DefaultDocumentLoader.loadDocument(74) | Using JAXP provider [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderFactoryImpl]
+2018-11-02 10:31:37,048 TRACE [main] DefaultNamespaceHandlerResolver.getHandlerMappings(160) | Loading NamespaceHandler mappings from [META-INF/spring.handlers]
+2018-11-02 10:31:37,049 TRACE [main] DefaultNamespaceHandlerResolver.getHandlerMappings(166) | Loaded NamespaceHandler mappings: {http://www.springframework.org/schema/p=org.springframework.beans.factory.xml.SimplePropertyNamespaceHandler, http://www.springframework.org/schema/util=org.springframework.beans.factory.xml.UtilNamespaceHandler, http://www.springframework.org/schema/jee=org.springframework.ejb.config.JeeNamespaceHandler, http://www.springframework.org/schema/aop=org.springframework.aop.config.AopNamespaceHandler, http://www.springframework.org/schema/cache=org.springframework.cache.config.CacheNamespaceHandler, http://www.springframework.org/schema/c=org.springframework.beans.factory.xml.SimpleConstructorNamespaceHandler, http://www.springframework.org/schema/task=org.springframework.scheduling.config.TaskNamespaceHandler, http://www.springframework.org/schema/lang=org.springframework.scripting.config.LangNamespaceHandler, http://www.springframework.org/schema/context=org.springframework.context.config.ContextNamespaceHandler}
+2018-11-02 10:31:37,076 DEBUG [main] XmlBeanDefinitionReader.doLoadBeanDefinitions(395) | Loaded 7 bean definitions from class path resource [com/zk/demo1025/applicationContext.xml]
+2018-11-02 10:31:37,077 TRACE [main] XmlBeanDefinitionReader.loadBeanDefinitions(229) | Loaded 7 bean definitions from location pattern [classpath:com/zk/demo1025/applicationContext.xml]
+2018-11-02 10:31:37,109 DEBUG [main] DefaultListableBeanFactory.getSingleton(213) | Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2018-11-02 10:31:37,110 TRACE [main] DefaultListableBeanFactory.createBean(463) | Creating instance of bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2018-11-02 10:31:37,127 TRACE [main] DefaultListableBeanFactory.doCreateBean(566) | Eagerly caching bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor' to allow for resolving potential circular references
+2018-11-02 10:31:37,131 TRACE [main] DefaultListableBeanFactory.createBean(500) | Finished creating instance of bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2018-11-02 10:31:37,197 DEBUG [main] DefaultListableBeanFactory.getSingleton(213) | Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+2018-11-02 10:31:37,198 TRACE [main] DefaultListableBeanFactory.createBean(463) | Creating instance of bean 'org.springframework.context.event.internalEventListenerProcessor'
+2018-11-02 10:31:37,198 TRACE [main] DefaultListableBeanFactory.doCreateBean(566) | Eagerly caching bean 'org.springframework.context.event.internalEventListenerProcessor' to allow for resolving potential circular references
+2018-11-02 10:31:37,199 TRACE [main] DefaultListableBeanFactory.createBean(500) | Finished creating instance of bean 'org.springframework.context.event.internalEventListenerProcessor'
+2018-11-02 10:31:37,199 DEBUG [main] DefaultListableBeanFactory.getSingleton(213) | Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2018-11-02 10:31:37,199 TRACE [main] DefaultListableBeanFactory.createBean(463) | Creating instance of bean 'org.springframework.context.event.internalEventListenerFactory'
+2018-11-02 10:31:37,200 TRACE [main] DefaultListableBeanFactory.doCreateBean(566) | Eagerly caching bean 'org.springframework.context.event.internalEventListenerFactory' to allow for resolving potential circular references
+2018-11-02 10:31:37,200 TRACE [main] DefaultListableBeanFactory.createBean(500) | Finished creating instance of bean 'org.springframework.context.event.internalEventListenerFactory'
+2018-11-02 10:31:37,201 DEBUG [main] DefaultListableBeanFactory.getSingleton(213) | Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2018-11-02 10:31:37,202 TRACE [main] DefaultListableBeanFactory.createBean(463) | Creating instance of bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2018-11-02 10:31:37,202 TRACE [main] DefaultListableBeanFactory.doCreateBean(566) | Eagerly caching bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor' to allow for resolving potential circular references
+2018-11-02 10:31:37,202 TRACE [main] DefaultListableBeanFactory.createBean(500) | Finished creating instance of bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2018-11-02 10:31:37,203 DEBUG [main] DefaultListableBeanFactory.getSingleton(213) | Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2018-11-02 10:31:37,203 TRACE [main] DefaultListableBeanFactory.createBean(463) | Creating instance of bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2018-11-02 10:31:37,205 TRACE [main] DefaultListableBeanFactory.doCreateBean(566) | Eagerly caching bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor' to allow for resolving potential circular references
+2018-11-02 10:31:37,205 TRACE [main] DefaultListableBeanFactory.createBean(500) | Finished creating instance of bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2018-11-02 10:31:37,207 TRACE [main] ClassPathXmlApplicationContext.initMessageSource(738) | No 'messageSource' bean, using [Empty MessageSource]
+2018-11-02 10:31:37,209 TRACE [main] ClassPathXmlApplicationContext.initApplicationEventMulticaster(761) | No 'applicationEventMulticaster' bean, using [SimpleApplicationEventMulticaster]
+2018-11-02 10:31:37,209 TRACE [main] DefaultListableBeanFactory.preInstantiateSingletons(815) | Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@153f17c: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.event.internalEventListenerProcessor,org.springframework.context.event.internalEventListenerFactory,taskRef,task]; root of factory hierarchy
+2018-11-02 10:31:37,210 TRACE [main] DefaultListableBeanFactory.doGetBean(254) | Returning cached instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2018-11-02 10:31:37,210 TRACE [main] DefaultListableBeanFactory.doGetBean(254) | Returning cached instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2018-11-02 10:31:37,210 TRACE [main] DefaultListableBeanFactory.doGetBean(254) | Returning cached instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2018-11-02 10:31:37,210 TRACE [main] DefaultListableBeanFactory.doGetBean(254) | Returning cached instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+2018-11-02 10:31:37,210 TRACE [main] DefaultListableBeanFactory.doGetBean(254) | Returning cached instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2018-11-02 10:31:37,210 DEBUG [main] DefaultListableBeanFactory.getSingleton(213) | Creating shared instance of singleton bean 'taskRef'
+2018-11-02 10:31:37,210 TRACE [main] DefaultListableBeanFactory.createBean(463) | Creating instance of bean 'taskRef'
+2018-11-02 10:31:37,215 TRACE [main] DefaultListableBeanFactory.doCreateBean(566) | Eagerly caching bean 'taskRef' to allow for resolving potential circular references
+2018-11-02 10:31:37,215 TRACE [main] DefaultListableBeanFactory.createBean(500) | Finished creating instance of bean 'taskRef'
+2018-11-02 10:31:37,215 DEBUG [main] DefaultListableBeanFactory.getSingleton(213) | Creating shared instance of singleton bean 'task'
+2018-11-02 10:31:37,215 TRACE [main] DefaultListableBeanFactory.createBean(463) | Creating instance of bean 'task'
+2018-11-02 10:31:37,216 TRACE [main] DefaultListableBeanFactory.doCreateBean(566) | Eagerly caching bean 'task' to allow for resolving potential circular references
+2018-11-02 10:31:37,217 TRACE [main] DefaultListableBeanFactory.doGetBean(254) | Returning cached instance of singleton bean 'taskRef'
+2018-11-02 10:31:37,220 TRACE [main] SpringFactoriesLoader.loadFactories(101) | Loaded [org.springframework.beans.BeanInfoFactory] names: [org.springframework.beans.ExtendedBeanInfoFactory]
+2018-11-02 10:31:37,221 TRACE [main] CachedIntrospectionResults.<init>(271) | Getting BeanInfo for class [com.zk.demo1025.Task]
+2018-11-02 10:31:37,223 TRACE [main] CachedIntrospectionResults.<init>(276) | Caching PropertyDescriptors for class [com.zk.demo1025.Task]
+2018-11-02 10:31:37,223 TRACE [main] CachedIntrospectionResults.<init>(289) | Found bean property 'class' of type [java.lang.Class]
+2018-11-02 10:31:37,228 TRACE [main] CachedIntrospectionResults.<init>(289) | Found bean property 'taskRef' of type [com.zk.demo1025.TaskRef]
+2018-11-02 10:31:37,233 TRACE [main] DefaultListableBeanFactory.createBean(500) | Finished creating instance of bean 'task'
+2018-11-02 10:31:37,237 TRACE [main] EventListenerMethodProcessor.processBean(161) | No @EventListener annotations found on bean class: com.zk.demo1025.TaskRef
+2018-11-02 10:31:37,237 TRACE [main] EventListenerMethodProcessor.processBean(161) | No @EventListener annotations found on bean class: com.zk.demo1025.Task
+2018-11-02 10:31:37,239 TRACE [main] EventListenerMethodProcessor.processBean(161) | No @EventListener annotations found on bean class: java.util.Properties
+2018-11-02 10:31:37,239 TRACE [main] EventListenerMethodProcessor.processBean(161) | No @EventListener annotations found on bean class: java.util.Collections$UnmodifiableMap
+2018-11-02 10:31:37,240 TRACE [main] ClassPathXmlApplicationContext.initLifecycleProcessor(787) | No 'lifecycleProcessor' bean, using [DefaultLifecycleProcessor]
+2018-11-02 10:31:37,241 TRACE [main] DefaultListableBeanFactory.doGetBean(254) | Returning cached instance of singleton bean 'lifecycleProcessor'
+2018-11-02 10:31:37,243 TRACE [main] PropertySourcesPropertyResolver.getProperty(82) | Searching for key 'spring.liveBeansView.mbeanDomain' in PropertySource 'systemProperties'
+2018-11-02 10:31:37,243 TRACE [main] PropertySourcesPropertyResolver.getProperty(82) | Searching for key 'spring.liveBeansView.mbeanDomain' in PropertySource 'systemEnvironment'
+2018-11-02 10:31:37,243 TRACE [main] PropertySourcesPropertyResolver.getProperty(96) | Could not find key 'spring.liveBeansView.mbeanDomain' in any property source
+2018-11-02 10:31:37,248 TRACE [main] DefaultListableBeanFactory.doGetBean(254) | Returning cached instance of singleton bean 'task'
+2018-11-02 10:31:37,248 INFO [main] Main.main(17) | {task=com.zk.demo1025.Task@9ba3fb}
+2018-11-02 10:31:37,248 INFO [main] Main.main(18) | 
+2018-11-02 10:51:31,345 TRACE [main] ClassPathXmlApplicationContext.prepareRefresh(587) | Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@530c12, started on Fri Nov 02 10:51:31 CST 2018
+2018-11-02 10:51:31,397 TRACE [main] XmlBeanDefinitionReader.loadBeanDefinitions(317) | Loading XML bean definitions from class path resource [com/zk/demo1025/applicationContext.xml]
+2018-11-02 10:51:31,410 TRACE [main] DefaultDocumentLoader.loadDocument(74) | Using JAXP provider [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderFactoryImpl]
+2018-11-02 10:51:31,488 TRACE [main] DefaultNamespaceHandlerResolver.getHandlerMappings(160) | Loading NamespaceHandler mappings from [META-INF/spring.handlers]
+2018-11-02 10:51:31,489 TRACE [main] DefaultNamespaceHandlerResolver.getHandlerMappings(166) | Loaded NamespaceHandler mappings: {http://www.springframework.org/schema/p=org.springframework.beans.factory.xml.SimplePropertyNamespaceHandler, http://www.springframework.org/schema/util=org.springframework.beans.factory.xml.UtilNamespaceHandler, http://www.springframework.org/schema/jee=org.springframework.ejb.config.JeeNamespaceHandler, http://www.springframework.org/schema/aop=org.springframework.aop.config.AopNamespaceHandler, http://www.springframework.org/schema/cache=org.springframework.cache.config.CacheNamespaceHandler, http://www.springframework.org/schema/c=org.springframework.beans.factory.xml.SimpleConstructorNamespaceHandler, http://www.springframework.org/schema/task=org.springframework.scheduling.config.TaskNamespaceHandler, http://www.springframework.org/schema/lang=org.springframework.scripting.config.LangNamespaceHandler, http://www.springframework.org/schema/context=org.springframework.context.config.ContextNamespaceHandler}
+2018-11-02 10:51:31,526 DEBUG [main] XmlBeanDefinitionReader.doLoadBeanDefinitions(395) | Loaded 7 bean definitions from class path resource [com/zk/demo1025/applicationContext.xml]
+2018-11-02 10:51:31,527 TRACE [main] XmlBeanDefinitionReader.loadBeanDefinitions(229) | Loaded 7 bean definitions from location pattern [classpath:com/zk/demo1025/applicationContext.xml]
+2018-11-02 10:51:31,560 DEBUG [main] DefaultListableBeanFactory.getSingleton(213) | Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2018-11-02 10:51:31,560 TRACE [main] DefaultListableBeanFactory.createBean(463) | Creating instance of bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2018-11-02 10:51:31,578 TRACE [main] DefaultListableBeanFactory.doCreateBean(566) | Eagerly caching bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor' to allow for resolving potential circular references
+2018-11-02 10:51:31,581 TRACE [main] DefaultListableBeanFactory.createBean(500) | Finished creating instance of bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2018-11-02 10:51:31,649 DEBUG [main] DefaultListableBeanFactory.getSingleton(213) | Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+2018-11-02 10:51:31,649 TRACE [main] DefaultListableBeanFactory.createBean(463) | Creating instance of bean 'org.springframework.context.event.internalEventListenerProcessor'
+2018-11-02 10:51:31,650 TRACE [main] DefaultListableBeanFactory.doCreateBean(566) | Eagerly caching bean 'org.springframework.context.event.internalEventListenerProcessor' to allow for resolving potential circular references
+2018-11-02 10:51:31,651 TRACE [main] DefaultListableBeanFactory.createBean(500) | Finished creating instance of bean 'org.springframework.context.event.internalEventListenerProcessor'
+2018-11-02 10:51:31,651 DEBUG [main] DefaultListableBeanFactory.getSingleton(213) | Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2018-11-02 10:51:31,651 TRACE [main] DefaultListableBeanFactory.createBean(463) | Creating instance of bean 'org.springframework.context.event.internalEventListenerFactory'
+2018-11-02 10:51:31,652 TRACE [main] DefaultListableBeanFactory.doCreateBean(566) | Eagerly caching bean 'org.springframework.context.event.internalEventListenerFactory' to allow for resolving potential circular references
+2018-11-02 10:51:31,652 TRACE [main] DefaultListableBeanFactory.createBean(500) | Finished creating instance of bean 'org.springframework.context.event.internalEventListenerFactory'
+2018-11-02 10:51:31,653 DEBUG [main] DefaultListableBeanFactory.getSingleton(213) | Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2018-11-02 10:51:31,654 TRACE [main] DefaultListableBeanFactory.createBean(463) | Creating instance of bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2018-11-02 10:51:31,654 TRACE [main] DefaultListableBeanFactory.doCreateBean(566) | Eagerly caching bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor' to allow for resolving potential circular references
+2018-11-02 10:51:31,655 TRACE [main] DefaultListableBeanFactory.createBean(500) | Finished creating instance of bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2018-11-02 10:51:31,655 DEBUG [main] DefaultListableBeanFactory.getSingleton(213) | Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2018-11-02 10:51:31,655 TRACE [main] DefaultListableBeanFactory.createBean(463) | Creating instance of bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2018-11-02 10:51:31,658 TRACE [main] DefaultListableBeanFactory.doCreateBean(566) | Eagerly caching bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor' to allow for resolving potential circular references
+2018-11-02 10:51:31,658 TRACE [main] DefaultListableBeanFactory.createBean(500) | Finished creating instance of bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2018-11-02 10:51:31,659 TRACE [main] ClassPathXmlApplicationContext.initMessageSource(738) | No 'messageSource' bean, using [Empty MessageSource]
+2018-11-02 10:51:31,661 TRACE [main] ClassPathXmlApplicationContext.initApplicationEventMulticaster(761) | No 'applicationEventMulticaster' bean, using [SimpleApplicationEventMulticaster]
+2018-11-02 10:51:31,662 TRACE [main] DefaultListableBeanFactory.preInstantiateSingletons(815) | Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@153f17c: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.event.internalEventListenerProcessor,org.springframework.context.event.internalEventListenerFactory,taskRef,task]; root of factory hierarchy
+2018-11-02 10:51:31,662 TRACE [main] DefaultListableBeanFactory.doGetBean(254) | Returning cached instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2018-11-02 10:51:31,662 TRACE [main] DefaultListableBeanFactory.doGetBean(254) | Returning cached instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2018-11-02 10:51:31,662 TRACE [main] DefaultListableBeanFactory.doGetBean(254) | Returning cached instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2018-11-02 10:51:31,663 TRACE [main] DefaultListableBeanFactory.doGetBean(254) | Returning cached instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+2018-11-02 10:51:31,663 TRACE [main] DefaultListableBeanFactory.doGetBean(254) | Returning cached instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2018-11-02 10:51:31,663 DEBUG [main] DefaultListableBeanFactory.getSingleton(213) | Creating shared instance of singleton bean 'taskRef'
+2018-11-02 10:51:31,663 TRACE [main] DefaultListableBeanFactory.createBean(463) | Creating instance of bean 'taskRef'
+2018-11-02 10:51:31,667 TRACE [main] DefaultListableBeanFactory.doCreateBean(566) | Eagerly caching bean 'taskRef' to allow for resolving potential circular references
+2018-11-02 10:51:31,667 TRACE [main] DefaultListableBeanFactory.createBean(500) | Finished creating instance of bean 'taskRef'
+2018-11-02 10:51:31,668 DEBUG [main] DefaultListableBeanFactory.getSingleton(213) | Creating shared instance of singleton bean 'task'
+2018-11-02 10:51:31,668 TRACE [main] DefaultListableBeanFactory.createBean(463) | Creating instance of bean 'task'
+2018-11-02 10:51:31,668 TRACE [main] DefaultListableBeanFactory.doCreateBean(566) | Eagerly caching bean 'task' to allow for resolving potential circular references
+2018-11-02 10:51:31,670 TRACE [main] DefaultListableBeanFactory.doGetBean(254) | Returning cached instance of singleton bean 'taskRef'
+2018-11-02 10:51:31,673 TRACE [main] SpringFactoriesLoader.loadFactories(101) | Loaded [org.springframework.beans.BeanInfoFactory] names: [org.springframework.beans.ExtendedBeanInfoFactory]
+2018-11-02 10:51:31,674 TRACE [main] CachedIntrospectionResults.<init>(271) | Getting BeanInfo for class [com.zk.demo1025.Task]
+2018-11-02 10:51:31,677 TRACE [main] CachedIntrospectionResults.<init>(276) | Caching PropertyDescriptors for class [com.zk.demo1025.Task]
+2018-11-02 10:51:31,677 TRACE [main] CachedIntrospectionResults.<init>(289) | Found bean property 'class' of type [java.lang.Class]
+2018-11-02 10:51:31,683 TRACE [main] CachedIntrospectionResults.<init>(289) | Found bean property 'taskRef' of type [com.zk.demo1025.TaskRef]
+2018-11-02 10:51:31,688 TRACE [main] DefaultListableBeanFactory.createBean(500) | Finished creating instance of bean 'task'
+2018-11-02 10:51:31,692 TRACE [main] EventListenerMethodProcessor.processBean(161) | No @EventListener annotations found on bean class: com.zk.demo1025.TaskRef
+2018-11-02 10:51:31,692 TRACE [main] EventListenerMethodProcessor.processBean(161) | No @EventListener annotations found on bean class: com.zk.demo1025.Task
+2018-11-02 10:51:31,694 TRACE [main] EventListenerMethodProcessor.processBean(161) | No @EventListener annotations found on bean class: java.util.Properties
+2018-11-02 10:51:31,695 TRACE [main] EventListenerMethodProcessor.processBean(161) | No @EventListener annotations found on bean class: java.util.Collections$UnmodifiableMap
+2018-11-02 10:51:31,696 TRACE [main] ClassPathXmlApplicationContext.initLifecycleProcessor(787) | No 'lifecycleProcessor' bean, using [DefaultLifecycleProcessor]
+2018-11-02 10:51:31,696 TRACE [main] DefaultListableBeanFactory.doGetBean(254) | Returning cached instance of singleton bean 'lifecycleProcessor'
+2018-11-02 10:51:31,699 TRACE [main] PropertySourcesPropertyResolver.getProperty(82) | Searching for key 'spring.liveBeansView.mbeanDomain' in PropertySource 'systemProperties'
+2018-11-02 10:51:31,699 TRACE [main] PropertySourcesPropertyResolver.getProperty(82) | Searching for key 'spring.liveBeansView.mbeanDomain' in PropertySource 'systemEnvironment'
+2018-11-02 10:51:31,699 TRACE [main] PropertySourcesPropertyResolver.getProperty(96) | Could not find key 'spring.liveBeansView.mbeanDomain' in any property source
+2018-11-02 10:51:31,704 TRACE [main] DefaultListableBeanFactory.doGetBean(254) | Returning cached instance of singleton bean 'task'
+2018-11-02 10:51:31,704 INFO [main] Main.main(19) | {task=com.zk.demo1025.Task@9ba3fb}
+2018-11-02 10:51:31,704 TRACE [main] DefaultListableBeanFactory.doGetBean(254) | Returning cached instance of singleton bean 'task'
+2018-11-02 10:51:31,704 INFO [main] Main.main(20) | {task=com.zk.demo1025.Task@9ba3fb}
+2018-11-02 10:55:43,259 TRACE [main] ClassPathXmlApplicationContext.prepareRefresh(587) | Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@530c12, started on Fri Nov 02 10:55:43 CST 2018
+2018-11-02 10:55:43,312 TRACE [main] XmlBeanDefinitionReader.loadBeanDefinitions(317) | Loading XML bean definitions from class path resource [com/zk/demo1025/applicationContext.xml]
+2018-11-02 10:55:43,326 TRACE [main] DefaultDocumentLoader.loadDocument(74) | Using JAXP provider [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderFactoryImpl]
+2018-11-02 10:55:43,401 TRACE [main] DefaultNamespaceHandlerResolver.getHandlerMappings(160) | Loading NamespaceHandler mappings from [META-INF/spring.handlers]
+2018-11-02 10:55:43,402 TRACE [main] DefaultNamespaceHandlerResolver.getHandlerMappings(166) | Loaded NamespaceHandler mappings: {http://www.springframework.org/schema/p=org.springframework.beans.factory.xml.SimplePropertyNamespaceHandler, http://www.springframework.org/schema/util=org.springframework.beans.factory.xml.UtilNamespaceHandler, http://www.springframework.org/schema/jee=org.springframework.ejb.config.JeeNamespaceHandler, http://www.springframework.org/schema/aop=org.springframework.aop.config.AopNamespaceHandler, http://www.springframework.org/schema/cache=org.springframework.cache.config.CacheNamespaceHandler, http://www.springframework.org/schema/c=org.springframework.beans.factory.xml.SimpleConstructorNamespaceHandler, http://www.springframework.org/schema/task=org.springframework.scheduling.config.TaskNamespaceHandler, http://www.springframework.org/schema/lang=org.springframework.scripting.config.LangNamespaceHandler, http://www.springframework.org/schema/context=org.springframework.context.config.ContextNamespaceHandler}
+2018-11-02 10:55:43,429 DEBUG [main] XmlBeanDefinitionReader.doLoadBeanDefinitions(395) | Loaded 7 bean definitions from class path resource [com/zk/demo1025/applicationContext.xml]
+2018-11-02 10:55:43,429 TRACE [main] XmlBeanDefinitionReader.loadBeanDefinitions(229) | Loaded 7 bean definitions from location pattern [classpath:com/zk/demo1025/applicationContext.xml]
+2018-11-02 10:55:43,462 DEBUG [main] DefaultListableBeanFactory.getSingleton(213) | Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2018-11-02 10:55:43,463 TRACE [main] DefaultListableBeanFactory.createBean(463) | Creating instance of bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2018-11-02 10:55:43,481 TRACE [main] DefaultListableBeanFactory.doCreateBean(566) | Eagerly caching bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor' to allow for resolving potential circular references
+2018-11-02 10:55:43,483 TRACE [main] DefaultListableBeanFactory.createBean(500) | Finished creating instance of bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2018-11-02 10:55:43,549 DEBUG [main] DefaultListableBeanFactory.getSingleton(213) | Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+2018-11-02 10:55:43,549 TRACE [main] DefaultListableBeanFactory.createBean(463) | Creating instance of bean 'org.springframework.context.event.internalEventListenerProcessor'
+2018-11-02 10:55:43,550 TRACE [main] DefaultListableBeanFactory.doCreateBean(566) | Eagerly caching bean 'org.springframework.context.event.internalEventListenerProcessor' to allow for resolving potential circular references
+2018-11-02 10:55:43,551 TRACE [main] DefaultListableBeanFactory.createBean(500) | Finished creating instance of bean 'org.springframework.context.event.internalEventListenerProcessor'
+2018-11-02 10:55:43,551 DEBUG [main] DefaultListableBeanFactory.getSingleton(213) | Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2018-11-02 10:55:43,552 TRACE [main] DefaultListableBeanFactory.createBean(463) | Creating instance of bean 'org.springframework.context.event.internalEventListenerFactory'
+2018-11-02 10:55:43,552 TRACE [main] DefaultListableBeanFactory.doCreateBean(566) | Eagerly caching bean 'org.springframework.context.event.internalEventListenerFactory' to allow for resolving potential circular references
+2018-11-02 10:55:43,552 TRACE [main] DefaultListableBeanFactory.createBean(500) | Finished creating instance of bean 'org.springframework.context.event.internalEventListenerFactory'
+2018-11-02 10:55:43,554 DEBUG [main] DefaultListableBeanFactory.getSingleton(213) | Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2018-11-02 10:55:43,555 TRACE [main] DefaultListableBeanFactory.createBean(463) | Creating instance of bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2018-11-02 10:55:43,555 TRACE [main] DefaultListableBeanFactory.doCreateBean(566) | Eagerly caching bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor' to allow for resolving potential circular references
+2018-11-02 10:55:43,556 TRACE [main] DefaultListableBeanFactory.createBean(500) | Finished creating instance of bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2018-11-02 10:55:43,556 DEBUG [main] DefaultListableBeanFactory.getSingleton(213) | Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2018-11-02 10:55:43,556 TRACE [main] DefaultListableBeanFactory.createBean(463) | Creating instance of bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2018-11-02 10:55:43,559 TRACE [main] DefaultListableBeanFactory.doCreateBean(566) | Eagerly caching bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor' to allow for resolving potential circular references
+2018-11-02 10:55:43,559 TRACE [main] DefaultListableBeanFactory.createBean(500) | Finished creating instance of bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2018-11-02 10:55:43,560 TRACE [main] ClassPathXmlApplicationContext.initMessageSource(738) | No 'messageSource' bean, using [Empty MessageSource]
+2018-11-02 10:55:43,562 TRACE [main] ClassPathXmlApplicationContext.initApplicationEventMulticaster(761) | No 'applicationEventMulticaster' bean, using [SimpleApplicationEventMulticaster]
+2018-11-02 10:55:43,563 TRACE [main] DefaultListableBeanFactory.preInstantiateSingletons(815) | Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@153f17c: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.event.internalEventListenerProcessor,org.springframework.context.event.internalEventListenerFactory,taskRef,task]; root of factory hierarchy
+2018-11-02 10:55:43,563 TRACE [main] DefaultListableBeanFactory.doGetBean(254) | Returning cached instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2018-11-02 10:55:43,563 TRACE [main] DefaultListableBeanFactory.doGetBean(254) | Returning cached instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2018-11-02 10:55:43,563 TRACE [main] DefaultListableBeanFactory.doGetBean(254) | Returning cached instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2018-11-02 10:55:43,564 TRACE [main] DefaultListableBeanFactory.doGetBean(254) | Returning cached instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+2018-11-02 10:55:43,564 TRACE [main] DefaultListableBeanFactory.doGetBean(254) | Returning cached instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2018-11-02 10:55:43,564 DEBUG [main] DefaultListableBeanFactory.getSingleton(213) | Creating shared instance of singleton bean 'taskRef'
+2018-11-02 10:55:43,564 TRACE [main] DefaultListableBeanFactory.createBean(463) | Creating instance of bean 'taskRef'
+2018-11-02 10:55:43,568 TRACE [main] DefaultListableBeanFactory.doCreateBean(566) | Eagerly caching bean 'taskRef' to allow for resolving potential circular references
+2018-11-02 10:55:43,569 TRACE [main] DefaultListableBeanFactory.createBean(500) | Finished creating instance of bean 'taskRef'
+2018-11-02 10:55:43,569 DEBUG [main] DefaultListableBeanFactory.getSingleton(213) | Creating shared instance of singleton bean 'task'
+2018-11-02 10:55:43,569 TRACE [main] DefaultListableBeanFactory.createBean(463) | Creating instance of bean 'task'
+2018-11-02 10:55:43,569 TRACE [main] DefaultListableBeanFactory.doCreateBean(566) | Eagerly caching bean 'task' to allow for resolving potential circular references
+2018-11-02 10:55:43,570 TRACE [main] DefaultListableBeanFactory.doGetBean(254) | Returning cached instance of singleton bean 'taskRef'
+2018-11-02 10:55:43,574 TRACE [main] SpringFactoriesLoader.loadFactories(101) | Loaded [org.springframework.beans.BeanInfoFactory] names: [org.springframework.beans.ExtendedBeanInfoFactory]
+2018-11-02 10:55:43,574 TRACE [main] CachedIntrospectionResults.<init>(271) | Getting BeanInfo for class [com.zk.demo1025.Task]
+2018-11-02 10:55:43,577 TRACE [main] CachedIntrospectionResults.<init>(276) | Caching PropertyDescriptors for class [com.zk.demo1025.Task]
+2018-11-02 10:55:43,577 TRACE [main] CachedIntrospectionResults.<init>(289) | Found bean property 'class' of type [java.lang.Class]
+2018-11-02 10:55:43,582 TRACE [main] CachedIntrospectionResults.<init>(289) | Found bean property 'taskRef' of type [com.zk.demo1025.TaskRef]
+2018-11-02 10:55:43,587 TRACE [main] DefaultListableBeanFactory.createBean(500) | Finished creating instance of bean 'task'
+2018-11-02 10:55:43,591 TRACE [main] EventListenerMethodProcessor.processBean(161) | No @EventListener annotations found on bean class: com.zk.demo1025.TaskRef
+2018-11-02 10:55:43,591 TRACE [main] EventListenerMethodProcessor.processBean(161) | No @EventListener annotations found on bean class: com.zk.demo1025.Task
+2018-11-02 10:55:43,593 TRACE [main] EventListenerMethodProcessor.processBean(161) | No @EventListener annotations found on bean class: java.util.Properties
+2018-11-02 10:55:43,594 TRACE [main] EventListenerMethodProcessor.processBean(161) | No @EventListener annotations found on bean class: java.util.Collections$UnmodifiableMap
+2018-11-02 10:55:43,595 TRACE [main] ClassPathXmlApplicationContext.initLifecycleProcessor(787) | No 'lifecycleProcessor' bean, using [DefaultLifecycleProcessor]
+2018-11-02 10:55:43,595 TRACE [main] DefaultListableBeanFactory.doGetBean(254) | Returning cached instance of singleton bean 'lifecycleProcessor'
+2018-11-02 10:55:43,598 TRACE [main] PropertySourcesPropertyResolver.getProperty(82) | Searching for key 'spring.liveBeansView.mbeanDomain' in PropertySource 'systemProperties'
+2018-11-02 10:55:43,598 TRACE [main] PropertySourcesPropertyResolver.getProperty(82) | Searching for key 'spring.liveBeansView.mbeanDomain' in PropertySource 'systemEnvironment'
+2018-11-02 10:55:43,598 TRACE [main] PropertySourcesPropertyResolver.getProperty(96) | Could not find key 'spring.liveBeansView.mbeanDomain' in any property source
+2018-11-02 10:55:43,603 INFO [main] Main.main(16) | {}
+2018-11-02 10:55:43,603 DEBUG [main] ClassPathXmlApplicationContext.doClose(987) | Closing org.springframework.context.support.ClassPathXmlApplicationContext@530c12, started on Fri Nov 02 10:55:43 CST 2018
+2018-11-02 10:55:43,603 TRACE [main] DefaultListableBeanFactory.doGetBean(254) | Returning cached instance of singleton bean 'lifecycleProcessor'
+2018-11-02 10:55:43,604 TRACE [main] DefaultListableBeanFactory.destroySingletons(493) | Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@153f17c: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.event.internalEventListenerProcessor,org.springframework.context.event.internalEventListenerFactory,taskRef,task]; root of factory hierarchy
+2018-11-02 10:56:09,169 TRACE [main] ClassPathXmlApplicationContext.prepareRefresh(587) | Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@530c12, started on Fri Nov 02 10:56:09 CST 2018
+2018-11-02 10:56:09,221 TRACE [main] XmlBeanDefinitionReader.loadBeanDefinitions(317) | Loading XML bean definitions from class path resource [com/zk/demo1025/applicationContext.xml]
+2018-11-02 10:56:09,234 TRACE [main] DefaultDocumentLoader.loadDocument(74) | Using JAXP provider [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderFactoryImpl]
+2018-11-02 10:56:09,308 TRACE [main] DefaultNamespaceHandlerResolver.getHandlerMappings(160) | Loading NamespaceHandler mappings from [META-INF/spring.handlers]
+2018-11-02 10:56:09,309 TRACE [main] DefaultNamespaceHandlerResolver.getHandlerMappings(166) | Loaded NamespaceHandler mappings: {http://www.springframework.org/schema/p=org.springframework.beans.factory.xml.SimplePropertyNamespaceHandler, http://www.springframework.org/schema/util=org.springframework.beans.factory.xml.UtilNamespaceHandler, http://www.springframework.org/schema/jee=org.springframework.ejb.config.JeeNamespaceHandler, http://www.springframework.org/schema/aop=org.springframework.aop.config.AopNamespaceHandler, http://www.springframework.org/schema/cache=org.springframework.cache.config.CacheNamespaceHandler, http://www.springframework.org/schema/c=org.springframework.beans.factory.xml.SimpleConstructorNamespaceHandler, http://www.springframework.org/schema/task=org.springframework.scheduling.config.TaskNamespaceHandler, http://www.springframework.org/schema/lang=org.springframework.scripting.config.LangNamespaceHandler, http://www.springframework.org/schema/context=org.springframework.context.config.ContextNamespaceHandler}
+2018-11-02 10:56:09,337 DEBUG [main] XmlBeanDefinitionReader.doLoadBeanDefinitions(395) | Loaded 7 bean definitions from class path resource [com/zk/demo1025/applicationContext.xml]
+2018-11-02 10:56:09,337 TRACE [main] XmlBeanDefinitionReader.loadBeanDefinitions(229) | Loaded 7 bean definitions from location pattern [classpath:com/zk/demo1025/applicationContext.xml]
+2018-11-02 10:56:09,369 DEBUG [main] DefaultListableBeanFactory.getSingleton(213) | Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2018-11-02 10:56:09,369 TRACE [main] DefaultListableBeanFactory.createBean(463) | Creating instance of bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2018-11-02 10:56:09,387 TRACE [main] DefaultListableBeanFactory.doCreateBean(566) | Eagerly caching bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor' to allow for resolving potential circular references
+2018-11-02 10:56:09,389 TRACE [main] DefaultListableBeanFactory.createBean(500) | Finished creating instance of bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2018-11-02 10:56:09,457 DEBUG [main] DefaultListableBeanFactory.getSingleton(213) | Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+2018-11-02 10:56:09,458 TRACE [main] DefaultListableBeanFactory.createBean(463) | Creating instance of bean 'org.springframework.context.event.internalEventListenerProcessor'
+2018-11-02 10:56:09,459 TRACE [main] DefaultListableBeanFactory.doCreateBean(566) | Eagerly caching bean 'org.springframework.context.event.internalEventListenerProcessor' to allow for resolving potential circular references
+2018-11-02 10:56:09,459 TRACE [main] DefaultListableBeanFactory.createBean(500) | Finished creating instance of bean 'org.springframework.context.event.internalEventListenerProcessor'
+2018-11-02 10:56:09,459 DEBUG [main] DefaultListableBeanFactory.getSingleton(213) | Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2018-11-02 10:56:09,460 TRACE [main] DefaultListableBeanFactory.createBean(463) | Creating instance of bean 'org.springframework.context.event.internalEventListenerFactory'
+2018-11-02 10:56:09,460 TRACE [main] DefaultListableBeanFactory.doCreateBean(566) | Eagerly caching bean 'org.springframework.context.event.internalEventListenerFactory' to allow for resolving potential circular references
+2018-11-02 10:56:09,460 TRACE [main] DefaultListableBeanFactory.createBean(500) | Finished creating instance of bean 'org.springframework.context.event.internalEventListenerFactory'
+2018-11-02 10:56:09,462 DEBUG [main] DefaultListableBeanFactory.getSingleton(213) | Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2018-11-02 10:56:09,462 TRACE [main] DefaultListableBeanFactory.createBean(463) | Creating instance of bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2018-11-02 10:56:09,462 TRACE [main] DefaultListableBeanFactory.doCreateBean(566) | Eagerly caching bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor' to allow for resolving potential circular references
+2018-11-02 10:56:09,463 TRACE [main] DefaultListableBeanFactory.createBean(500) | Finished creating instance of bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2018-11-02 10:56:09,463 DEBUG [main] DefaultListableBeanFactory.getSingleton(213) | Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2018-11-02 10:56:09,463 TRACE [main] DefaultListableBeanFactory.createBean(463) | Creating instance of bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2018-11-02 10:56:09,466 TRACE [main] DefaultListableBeanFactory.doCreateBean(566) | Eagerly caching bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor' to allow for resolving potential circular references
+2018-11-02 10:56:09,466 TRACE [main] DefaultListableBeanFactory.createBean(500) | Finished creating instance of bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2018-11-02 10:56:09,467 TRACE [main] ClassPathXmlApplicationContext.initMessageSource(738) | No 'messageSource' bean, using [Empty MessageSource]
+2018-11-02 10:56:09,469 TRACE [main] ClassPathXmlApplicationContext.initApplicationEventMulticaster(761) | No 'applicationEventMulticaster' bean, using [SimpleApplicationEventMulticaster]
+2018-11-02 10:56:09,470 TRACE [main] DefaultListableBeanFactory.preInstantiateSingletons(815) | Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@153f17c: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.event.internalEventListenerProcessor,org.springframework.context.event.internalEventListenerFactory,taskRef,task]; root of factory hierarchy
+2018-11-02 10:56:09,470 TRACE [main] DefaultListableBeanFactory.doGetBean(254) | Returning cached instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2018-11-02 10:56:09,470 TRACE [main] DefaultListableBeanFactory.doGetBean(254) | Returning cached instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2018-11-02 10:56:09,470 TRACE [main] DefaultListableBeanFactory.doGetBean(254) | Returning cached instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2018-11-02 10:56:09,470 TRACE [main] DefaultListableBeanFactory.doGetBean(254) | Returning cached instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+2018-11-02 10:56:09,470 TRACE [main] DefaultListableBeanFactory.doGetBean(254) | Returning cached instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2018-11-02 10:56:09,470 DEBUG [main] DefaultListableBeanFactory.getSingleton(213) | Creating shared instance of singleton bean 'taskRef'
+2018-11-02 10:56:09,470 TRACE [main] DefaultListableBeanFactory.createBean(463) | Creating instance of bean 'taskRef'
+2018-11-02 10:56:09,475 TRACE [main] DefaultListableBeanFactory.doCreateBean(566) | Eagerly caching bean 'taskRef' to allow for resolving potential circular references
+2018-11-02 10:56:09,475 TRACE [main] DefaultListableBeanFactory.createBean(500) | Finished creating instance of bean 'taskRef'
+2018-11-02 10:56:09,475 DEBUG [main] DefaultListableBeanFactory.getSingleton(213) | Creating shared instance of singleton bean 'task'
+2018-11-02 10:56:09,475 TRACE [main] DefaultListableBeanFactory.createBean(463) | Creating instance of bean 'task'
+2018-11-02 10:56:09,476 TRACE [main] DefaultListableBeanFactory.doCreateBean(566) | Eagerly caching bean 'task' to allow for resolving potential circular references
+2018-11-02 10:56:09,477 TRACE [main] DefaultListableBeanFactory.doGetBean(254) | Returning cached instance of singleton bean 'taskRef'
+2018-11-02 10:56:09,480 TRACE [main] SpringFactoriesLoader.loadFactories(101) | Loaded [org.springframework.beans.BeanInfoFactory] names: [org.springframework.beans.ExtendedBeanInfoFactory]
+2018-11-02 10:56:09,481 TRACE [main] CachedIntrospectionResults.<init>(271) | Getting BeanInfo for class [com.zk.demo1025.Task]
+2018-11-02 10:56:09,483 TRACE [main] CachedIntrospectionResults.<init>(276) | Caching PropertyDescriptors for class [com.zk.demo1025.Task]
+2018-11-02 10:56:09,483 TRACE [main] CachedIntrospectionResults.<init>(289) | Found bean property 'class' of type [java.lang.Class]
+2018-11-02 10:56:09,489 TRACE [main] CachedIntrospectionResults.<init>(289) | Found bean property 'taskRef' of type [com.zk.demo1025.TaskRef]
+2018-11-02 10:56:09,494 TRACE [main] DefaultListableBeanFactory.createBean(500) | Finished creating instance of bean 'task'
+2018-11-02 10:56:09,498 TRACE [main] EventListenerMethodProcessor.processBean(161) | No @EventListener annotations found on bean class: com.zk.demo1025.TaskRef
+2018-11-02 10:56:09,498 TRACE [main] EventListenerMethodProcessor.processBean(161) | No @EventListener annotations found on bean class: com.zk.demo1025.Task
+2018-11-02 10:56:09,500 TRACE [main] EventListenerMethodProcessor.processBean(161) | No @EventListener annotations found on bean class: java.util.Properties
+2018-11-02 10:56:09,501 TRACE [main] EventListenerMethodProcessor.processBean(161) | No @EventListener annotations found on bean class: java.util.Collections$UnmodifiableMap
+2018-11-02 10:56:09,502 TRACE [main] ClassPathXmlApplicationContext.initLifecycleProcessor(787) | No 'lifecycleProcessor' bean, using [DefaultLifecycleProcessor]
+2018-11-02 10:56:09,502 TRACE [main] DefaultListableBeanFactory.doGetBean(254) | Returning cached instance of singleton bean 'lifecycleProcessor'
+2018-11-02 10:56:09,505 TRACE [main] PropertySourcesPropertyResolver.getProperty(82) | Searching for key 'spring.liveBeansView.mbeanDomain' in PropertySource 'systemProperties'
+2018-11-02 10:56:09,505 TRACE [main] PropertySourcesPropertyResolver.getProperty(82) | Searching for key 'spring.liveBeansView.mbeanDomain' in PropertySource 'systemEnvironment'
+2018-11-02 10:56:09,505 TRACE [main] PropertySourcesPropertyResolver.getProperty(96) | Could not find key 'spring.liveBeansView.mbeanDomain' in any property source
+2018-11-02 10:56:09,511 TRACE [main] DefaultListableBeanFactory.doGetBean(254) | Returning cached instance of singleton bean 'task'
+2018-11-02 10:56:09,511 INFO [main] Main.main(17) | {task=com.zk.demo1025.Task@136e4cd}
+2018-11-02 10:56:09,511 DEBUG [main] ClassPathXmlApplicationContext.doClose(987) | Closing org.springframework.context.support.ClassPathXmlApplicationContext@530c12, started on Fri Nov 02 10:56:09 CST 2018
+2018-11-02 10:56:09,511 TRACE [main] DefaultListableBeanFactory.doGetBean(254) | Returning cached instance of singleton bean 'lifecycleProcessor'
+2018-11-02 10:56:09,512 TRACE [main] DefaultListableBeanFactory.destroySingletons(493) | Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@153f17c: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.event.internalEventListenerProcessor,org.springframework.context.event.internalEventListenerFactory,taskRef,task]; root of factory hierarchy

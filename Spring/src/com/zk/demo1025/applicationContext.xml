@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+						http://www.springframework.org/schema/beans/spring-beans-2.5.xsd
+						http://www.springframework.org/schema/context
+						http://www.springframework.org/schema/context/spring-context.xsd">
+	<!-- 
+	<bean id="aBeanPostProcessor" class="com.zk.demo1025.ABeanPostProcessor"></bean>
+	
+	<bean id="conversionService" class="com.zk.demo1025.ZGenericConversionService"></bean>
+	
+	<bean id="dateWrapper" class="com.zk.demo1025.DateWrapper">
+		<property name="date" value="2018-11-05 12:56:47"></property>
+	</bean>
+	
+	<bean id="task" class="com.zk.demo1025.Task">
+		<property name="taskRef" ref="taskRef"></property>
+	</bean>
+	<bean id="taskRef" class="com.zk.demo1025.TaskRef"></bean>
+	<bean id="taskFactory" class="com.zk.demo1025.TaskFactory"></bean>
+	
+	<context:annotation-config />
+	
+	<alias name="resourceHolder" alias="resourceHolder1"/>
+	<alias name="resourceHolder" alias="resourceHolder2"/>
+	<alias name="resourceHolder" alias="resourceHolder3"/>
+	
+	<bean id="resourceHolder" class="com.zk.demo1025.ResourceHolder">
+		<property name="resource" value="classpath:com/zk/demo1025/applicationContext.xml"></property>
+	</bean>
+	-->
+	
+	<bean id="loginService" class="com.zk.demo1025.LoginServiceImpl"></bean>
+	<bean id="loginService2" class="com.zk.demo1025.LoginServiceImpl2"></bean>
+	
+	
+</beans>

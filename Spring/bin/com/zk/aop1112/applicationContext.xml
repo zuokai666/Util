@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:context="http://www.springframework.org/schema/context"
+    xmlns:tx="http://www.springframework.org/schema/tx"
+    xmlns:aop="http://www.springframework.org/schema/aop"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans
+				        http://www.springframework.org/schema/beans/spring-beans.xsd
+				        http://www.springframework.org/schema/context
+				        http://www.springframework.org/schema/context/spring-context.xsd
+				        http://www.springframework.org/schema/tx  
+				        http://www.springframework.org/schema/tx/spring-tx.xsd
+				        http://www.springframework.org/schema/aop
+				        http://www.springframework.org/schema/aop/spring-aop.xsd">
+ 	
+	<!-- 
+	
+			<aop:before method="before" pointcut-ref="addAllMethod" />
+            <aop:after method="after" pointcut-ref="addAllMethod" />
+            <aop:after-returning method="after-returning"/>
+            <aop:after-throwing method="after-throwing"/>
+		
+			<bean id="counter" class="com.zk.aop1112.Counter" />
+			<bean id="advice" class="com.zk.aop.Main1111.Advice1"></bean>
+			<bean id="pointcut" class="org.springframework.aop.aspectj.AspectJExpressionPointcut">
+				<property name="expression" value="execution(* com.zk.aop1112.Counter.count(..))"></property>
+			</bean>
+			
+			<bean id="advisor" class="org.springframework.aop.support.DefaultPointcutAdvisor">
+				<property name="advice" ref="advice"></property>
+				<property name="pointcut" ref="pointcut"></property>
+			</bean>
+		    
+			<bean id="counterProxy" class="org.springframework.aop.framework.ProxyFactoryBean">
+				<property name="proxyTargetClass" value="false"></property>
+				<property name="proxyInterfaces" value="com.zk.aop1112.CT"></property>
+				<property name="target" ref="counter"></property>
+				<property name="interceptorNames">
+					<list>
+						<value>advisor</value>
+						<value>advisor</value>
+					</list>
+				</property>
+			</bean>
+			
+			 自动扫描bean
+    		<context:component-scan base-package="com.elong.eco"/>
+    		开启aop注解支持
+    		<aop:aspectj-autoproxy/>
+			
+			<aop:pointcut id="pointcut1" expression="execution(* com.zk.aop1112.Counter.*(..))" />
+    		<aop:advisor id="getNameAdvisor" pointcut-ref="pointcut1" advice-ref="getNameCounter"/>
+	 -->
+    
+	
+	
+	<aop:config>
+    	
+    	
+    	<aop:advisor id="getAgeAdvisor" pointcut="execution(* *..ITestBean.getAge(..))" advice-ref="getAgeCounter"/>
+    </aop:config>
+</beans>

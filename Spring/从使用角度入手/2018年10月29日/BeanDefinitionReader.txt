@@ -1,0 +1,16 @@
+public interface BeanDefinitionReader{
+	
+	BeanDefinitionRegistry getRegistry();
+	ResourceLoader getResourceLoader();
+	ClassLoader getClassLoader();
+	BeanNameGenerator getBeanNameGenerator();
+	
+	int loadBeanDefinitions(Resource[] resources);
+	int loadBeanDefinitions(Resource resource);
+	int loadBeanDefinitions(String[] locations);
+	int loadBeanDefinitions(String location);
+}
+
+public abstract class AbstractBeanDefinitionReader implements BeanDefinitionReader{
+	
+}

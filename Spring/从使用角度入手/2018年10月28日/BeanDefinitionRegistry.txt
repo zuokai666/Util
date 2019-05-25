@@ -1,0 +1,52 @@
+
+public interface BeanDefinitionRegistry extends AliasRegistry{
+	
+	void registerBeanDefinition(String beanName,BeanDefinition beanDefinition);
+	void removeBeanDefinition(String beanName);
+	BeanDefinition getBeanDefinition(String beanName);
+	boolean containsBeanDefinition(String beanName);
+	String[] getBeanDefinitionNames();
+	int getBeanDefinitionCount();
+	boolean isBeanNameInUse(String beanName);
+}
+
+public class DefaultListableBeanFactory implements BeanDefinitionRegistry{
+
+	private Map<String,BeanDefinition> map=new ConcurrentHashMap<>();
+	
+	void registerBeanDefinition(String beanName,BeanDefinition beanDefinition){
+		BeanDefinition existingDefinition=map.get(beanName);
+		if(existingDefinition != null){
+		}
+		map.put(beanName,beanDefinition);
+	}
+	void removeBeanDefinition(String beanName){
+		map.remove(beanName);
+	}
+	BeanDefinition getBeanDefinition(String beanName){
+		return map.get(beanName);
+	}
+	boolean containsBeanDefinition(String beanName);
+	String[] getBeanDefinitionNames();
+	int getBeanDefinitionCount();
+	boolean isBeanNameInUse(String beanName);
+}
+
+public class SimpleBeanDefinitionRegistry implements BeanDefinitionRegistry{
+	
+	private Map<String,BeanDefinition> map=new ConcurrentHashMap<>();
+	
+	void registerBeanDefinition(String beanName,BeanDefinition beanDefinition){
+		map.put(beanName,beanDefinition);
+	}
+	void removeBeanDefinition(String beanName){
+		map.remove(beanName);
+	}
+	BeanDefinition getBeanDefinition(String beanName){
+		return map.get(beanName);
+	}
+	boolean containsBeanDefinition(String beanName);
+	String[] getBeanDefinitionNames();
+	int getBeanDefinitionCount();
+	boolean isBeanNameInUse(String beanName);
+}

@@ -1,0 +1,12 @@
+管理别名的接口
+public interface AliasRegistry{
+	
+	void registerAlias(String name,String aliasName);
+	void removeAlias(String name);
+	String[] getAlias(String name);
+	boolean isAlias(String name);
+}
+
+public interface BeanDefinitionRegistry extends AliasRegistry{
+	
+}

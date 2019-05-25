@@ -1,0 +1,36 @@
+1，BeanPostProcessor是如何起作用的？
+答：initializeBean()中，
+		invokeAwareMethods()：将AutowiredAnnotationBeanPostProcessor中的BeanFactory注入，因为它实现了Aware接口
+		applyBeanPostProcessorsBeforeInitialization()
+		invokeInitMethods()
+		applyBeanPostProcessorsAfterInitialization()
+
+2，@Autowired 注解是如何注入的，依赖什么时候注入的？（不需要实现setter方法）
+populateBean()中，
+AutowiredAnnotationBeanPostProcessor.postProcessProperties()
+AutowiredAnnotationBeanPostProcessor.findAutowiringMetadata
+InjectionMetadata.inject(bean, beanName, pvs);
+AutowiredFieldElement.inject():从IOC容器中获取对应对象，然后反射将值设进对象中
+
+3，AutowiredAnnotationBeanPostProcessor是她的作用吗与架构？
+
+4,autowire="byName"如何起作用?
+答：populateBean()中，会判断是否byName/Type，然后调用autowireByName/Type方法
+
+
+方法命名有趣：
+apply---MergedBeanDefinitionPostProcessor---s：应用多个MergedBeanDefinitionPostProcessor，for循环，强转，执行
+protected void applyMergedBeanDefinitionPostProcessors(RootBeanDefinition mbd, Class<?> beanType, String beanName) {
+	for (BeanPostProcessor bp : getBeanPostProcessors()) {
+		if (bp instanceof MergedBeanDefinitionPostProcessor) {
+			MergedBeanDefinitionPostProcessor bdp = (MergedBeanDefinitionPostProcessor) bp;
+			bdp.postProcessMergedBeanDefinition(mbd, beanType, beanName);
+		}
+	}
+}
+
+
+BeanPostProcessor是Spring中定义的一个接口，其与之前介绍的InitializingBean和DisposableBean接口类似，也是供Spring进行回调的。
+Spring将在初始化bean前后对BeanPostProcessor实现类进行回调，与InitializingBean和DisposableBean接口不同的是BeanPostProcessor接口将对所有的bean都起作用，
+即所有的bean初始化前后都会回调BeanPostProcessor实现类，而InitializingBean和DisposableBean接口是针对单个bean的，
+即只有在对应的bean实现了InitializingBean或DisposableBean接口才会对其进行回调。
