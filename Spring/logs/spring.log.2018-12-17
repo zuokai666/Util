@@ -1,8 +1,0 @@
-2018-12-17 12:58:17,068 TRACE [main] DefaultDocumentLoader.loadDocument(74) | Using JAXP provider [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderFactoryImpl]
-2018-12-17 12:58:17,090 TRACE [main] BeansDtdResolver.resolveEntity(57) | Trying to resolve XML entity with public ID [-//mybatis.org//DTD Config 3.0//EN] and system ID [http://mybatis.org/dtd/mybatis-3-config.dtd]
-2018-12-17 13:22:51,951 TRACE [main] PropertySourcesPropertyResolver.getProperty(82) | Searching for key 'username' in PropertySource 'systemProperties'
-2018-12-17 13:22:51,953 DEBUG [main] PropertySourcesPropertyResolver.logKeyFound(115) | Found key 'username' in PropertySource 'systemProperties' with value of type String
-2018-12-17 13:22:51,956 TRACE [main] PropertyPlaceholderHelper.parseStringValue(163) | Resolved placeholder 'username'
-2018-12-17 13:28:59,115 TRACE [main] PropertySourcesPropertyResolver.getProperty(82) | Searching for key 'username' in PropertySource '1'
-2018-12-17 13:28:59,118 DEBUG [main] PropertySourcesPropertyResolver.logKeyFound(115) | Found key 'username' in PropertySource '1' with value of type String
-2018-12-17 13:28:59,120 TRACE [main] PropertyPlaceholderHelper.parseStringValue(163) | Resolved placeholder 'username'
