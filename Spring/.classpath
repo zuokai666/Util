@@ -2,6 +2,7 @@
 <classpath>
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="src" path="classloader"/>
+	<classpathentry kind="src" path="food.platform"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="lib" path="libs/spring-beans-5.1.1.RELEASE.jar" sourcepath="sources/spring-beans-5.1.1.RELEASE-sources.jar"/>
 	<classpathentry kind="lib" path="libs/spring-context-5.1.1.RELEASE.jar" sourcepath="sources/spring-context-5.1.1.RELEASE-sources.jar"/>
