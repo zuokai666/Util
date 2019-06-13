@@ -14,11 +14,11 @@ public class ConsumerController1 {
 	
 	@RabbitHandler
 	public void consume(String request){
-//		try {
-//			Thread.sleep(1000);
-//		} catch (InterruptedException e) {
-//			e.printStackTrace();
-//		}
+		try {
+			Thread.sleep(3000);
+		} catch (InterruptedException e) {
+			e.printStackTrace();
+		}
 		log.info("[{}]-consume-{}",Thread.currentThread().getName(), request);
 	}
 }
