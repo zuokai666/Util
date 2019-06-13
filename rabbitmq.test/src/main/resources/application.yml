@@ -1,0 +1,20 @@
+server:
+  port: 9999
+  servlet:
+    context-path: /app
+spring:
+  application:
+    name: workflow
+  profiles:
+    active: dev
+  rabbitmq:
+    virtual-host: /
+    host: 127.0.0.1
+    port: 5672
+    username: admin
+    password: admin
+    listener:
+      simple:
+        concurrency: 5
+        max-concurrency: 30
+        prefetch: 3
