@@ -10,15 +10,15 @@ import org.springframework.stereotype.Component;
 @RabbitListener(queues={"pressureQueue"}, autoStartup="false")
 public class ConsumerController1 {
 	
-	private static final Logger log = LoggerFactory.getLogger(ConsumerController1.class);
+	private static final Logger log = LoggerFactory.getLogger(ConsumerController1.class);//高层次的组件不应该依赖于低层次
 	
 	@RabbitHandler
 	public void consume(String request){
-		try {
-			Thread.sleep(1000);
-		} catch (InterruptedException e) {
-			e.printStackTrace();
-		}
+//		try {
+//			Thread.sleep(1000);
+//		} catch (InterruptedException e) {
+//			e.printStackTrace();
+//		}
 		log.info("[{}]-consume-{}",Thread.currentThread().getName(), request);
 	}
 }
