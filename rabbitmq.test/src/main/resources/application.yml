@@ -15,6 +15,6 @@ spring:
     password: admin
     listener:
       simple:
-        concurrency: 5
-        max-concurrency: 30
-        prefetch: 3
+        concurrency: 3
+        max-concurrency: 9
+        prefetch: 1
