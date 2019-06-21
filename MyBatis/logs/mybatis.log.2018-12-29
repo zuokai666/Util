@@ -1,0 +1,16 @@
+2018-12-29 09:55:05,116 DEBUG [main] LogFactory.setImplementation(135) | Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2018-12-29 09:55:05,556 DEBUG [main] PooledDataSource.forceCloseAll(335) | PooledDataSource forcefully closed/removed all connections.
+2018-12-29 09:55:05,558 DEBUG [main] PooledDataSource.forceCloseAll(335) | PooledDataSource forcefully closed/removed all connections.
+2018-12-29 09:55:05,558 DEBUG [main] PooledDataSource.forceCloseAll(335) | PooledDataSource forcefully closed/removed all connections.
+2018-12-29 09:55:05,558 DEBUG [main] PooledDataSource.forceCloseAll(335) | PooledDataSource forcefully closed/removed all connections.
+2018-12-29 10:10:00,453 DEBUG [main] JdbcTransaction.openConnection(137) | Opening JDBC Connection
+2018-12-29 10:10:00,959 DEBUG [main] PooledDataSource.popConnection(406) | Created connection 9375854.
+2018-12-29 10:10:00,959 DEBUG [main] JdbcTransaction.setDesiredAutoCommit(101) | Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@8f106e]
+2018-12-29 10:10:00,963 DEBUG [main] selectUserByParms.debug(159) | ==>  Preparing: select * from User where account=? 
+2018-12-29 10:10:01,161 DEBUG [main] selectUserByParms.debug(159) | ==> Parameters: root1(String)
+2018-12-29 10:10:01,292 TRACE [main] selectUserByParms.trace(165) | <==    Columns: id, account, money, name, password, version
+2018-12-29 10:10:01,293 TRACE [main] selectUserByParms.trace(165) | <==        Row: 1, root1, 1, Thu Nov 29 12:18:48 CST 2018, 123, 1
+2018-12-29 10:10:01,296 DEBUG [main] selectUserByParms.debug(159) | <==      Total: 1
+2018-12-29 10:11:43,903 DEBUG [main] JdbcTransaction.resetAutoCommit(123) | Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@8f106e]
+2018-12-29 10:11:43,904 DEBUG [main] JdbcTransaction.close(91) | Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@8f106e]
+2018-12-29 10:11:43,904 DEBUG [main] PooledDataSource.pushConnection(363) | Returned connection 9375854 to pool.

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.zk.map.UserMapper">
+	<resultMap type="com.zk.model.User" id="uu">
+		<id property="id" column="id"/>
+		<result property="version" column="version"/>
+		<result property="name" column="name"/>
+		<result property="account" column="account"/>
+		<result property="password" column="password"/>
+		<result property="money" column="money"/>
+	</resultMap>
+	
+    <select id="selectUserById" resultMap="uu">
+    	select * from User where id = #{id}
+    </select>
+    
+    <select id="selectUserByParms" resultMap="uu">
+    	select * from User where account=#{account}
+    </select>
+    
+    <select id="selectUserByParms1" resultMap="uu">
+    	select * from User
+    	<where>
+    		<if test="account != null">account=#{account}</if>
+    		<if test="password != null">and password=#{password}</if>
+    	</where>
+    </select>
+    
+    <update id="updateUser" parameterType="com.zk.model.User">
+        update User
+        <set>
+        	version=version+1,
+            <if test="name != null">name=#{name},</if>
+            <if test="account != null">account=#{account},</if>
+            <if test="password != null">password=#{password}</if>
+        </set>
+        where id=#{id} and version=#{version}
+	</update>
+</mapper>

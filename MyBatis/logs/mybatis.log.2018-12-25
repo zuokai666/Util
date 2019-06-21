@@ -1,0 +1,97 @@
+2018-12-25 10:47:07,482 DEBUG [main] LogFactory.setImplementation(135) | Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2018-12-25 10:47:07,630 DEBUG [main] PooledDataSource.forceCloseAll(335) | PooledDataSource forcefully closed/removed all connections.
+2018-12-25 10:47:07,632 DEBUG [main] PooledDataSource.forceCloseAll(335) | PooledDataSource forcefully closed/removed all connections.
+2018-12-25 10:47:07,632 DEBUG [main] PooledDataSource.forceCloseAll(335) | PooledDataSource forcefully closed/removed all connections.
+2018-12-25 10:47:07,632 DEBUG [main] PooledDataSource.forceCloseAll(335) | PooledDataSource forcefully closed/removed all connections.
+2018-12-25 10:47:07,718 DEBUG [main] JdbcTransaction.openConnection(137) | Opening JDBC Connection
+2018-12-25 10:47:07,964 DEBUG [main] PooledDataSource.popConnection(406) | Created connection 15115869.
+2018-12-25 10:47:07,964 DEBUG [main] JdbcTransaction.setDesiredAutoCommit(101) | Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@e6a65d]
+2018-12-25 10:47:07,966 DEBUG [main] selectUserByParms.debug(159) | ==>  Preparing: select * from User where account=? 
+2018-12-25 10:47:07,999 DEBUG [main] selectUserByParms.debug(159) | ==> Parameters: root1(String)
+2018-12-25 10:47:08,010 TRACE [main] selectUserByParms.trace(165) | <==    Columns: id, account, money, name, password, version
+2018-12-25 10:47:08,010 TRACE [main] selectUserByParms.trace(165) | <==        Row: 1, root1, 1, Thu Nov 29 12:18:48 CST 2018, 123, 1
+2018-12-25 10:47:08,012 DEBUG [main] selectUserByParms.debug(159) | <==      Total: 1
+2018-12-25 10:47:08,013 DEBUG [main] JdbcTransaction.resetAutoCommit(123) | Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@e6a65d]
+2018-12-25 10:47:08,013 DEBUG [main] JdbcTransaction.close(91) | Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@e6a65d]
+2018-12-25 10:47:08,013 DEBUG [main] PooledDataSource.pushConnection(363) | Returned connection 15115869 to pool.
+2018-12-25 10:47:21,032 DEBUG [main] LogFactory.setImplementation(135) | Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2018-12-25 10:47:21,186 DEBUG [main] PooledDataSource.forceCloseAll(335) | PooledDataSource forcefully closed/removed all connections.
+2018-12-25 10:47:21,187 DEBUG [main] PooledDataSource.forceCloseAll(335) | PooledDataSource forcefully closed/removed all connections.
+2018-12-25 10:47:21,188 DEBUG [main] PooledDataSource.forceCloseAll(335) | PooledDataSource forcefully closed/removed all connections.
+2018-12-25 10:47:21,188 DEBUG [main] PooledDataSource.forceCloseAll(335) | PooledDataSource forcefully closed/removed all connections.
+2018-12-25 11:01:28,236 DEBUG [main] LogFactory.setImplementation(135) | Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2018-12-25 11:01:28,393 DEBUG [main] PooledDataSource.forceCloseAll(335) | PooledDataSource forcefully closed/removed all connections.
+2018-12-25 11:01:28,394 DEBUG [main] PooledDataSource.forceCloseAll(335) | PooledDataSource forcefully closed/removed all connections.
+2018-12-25 11:01:28,394 DEBUG [main] PooledDataSource.forceCloseAll(335) | PooledDataSource forcefully closed/removed all connections.
+2018-12-25 11:01:28,395 DEBUG [main] PooledDataSource.forceCloseAll(335) | PooledDataSource forcefully closed/removed all connections.
+2018-12-25 11:01:28,510 DEBUG [main] JdbcTransaction.openConnection(137) | Opening JDBC Connection
+2018-12-25 11:01:28,702 DEBUG [main] PooledDataSource.popConnection(406) | Created connection 15112048.
+2018-12-25 11:01:28,702 DEBUG [main] JdbcTransaction.setDesiredAutoCommit(101) | Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@e69770]
+2018-12-25 11:01:28,704 DEBUG [main] selectUserByParms.debug(159) | ==>  Preparing: select * from User where account=? 
+2018-12-25 11:01:28,728 DEBUG [main] selectUserByParms.debug(159) | ==> Parameters: root1(String)
+2018-12-25 11:01:28,738 TRACE [main] selectUserByParms.trace(165) | <==    Columns: id, account, money, name, password, version
+2018-12-25 11:01:28,739 TRACE [main] selectUserByParms.trace(165) | <==        Row: 1, root1, 1, Thu Nov 29 12:18:48 CST 2018, 123, 1
+2018-12-25 11:01:28,740 DEBUG [main] selectUserByParms.debug(159) | <==      Total: 1
+2018-12-25 11:01:28,740 DEBUG [main] JdbcTransaction.resetAutoCommit(123) | Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@e69770]
+2018-12-25 11:01:28,741 DEBUG [main] JdbcTransaction.close(91) | Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@e69770]
+2018-12-25 11:01:28,741 DEBUG [main] PooledDataSource.pushConnection(363) | Returned connection 15112048 to pool.
+2018-12-25 11:01:34,316 DEBUG [main] LogFactory.setImplementation(135) | Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2018-12-25 11:01:34,472 DEBUG [main] PooledDataSource.forceCloseAll(335) | PooledDataSource forcefully closed/removed all connections.
+2018-12-25 11:01:34,474 DEBUG [main] PooledDataSource.forceCloseAll(335) | PooledDataSource forcefully closed/removed all connections.
+2018-12-25 11:01:34,475 DEBUG [main] PooledDataSource.forceCloseAll(335) | PooledDataSource forcefully closed/removed all connections.
+2018-12-25 11:01:34,475 DEBUG [main] PooledDataSource.forceCloseAll(335) | PooledDataSource forcefully closed/removed all connections.
+2018-12-25 11:01:34,590 DEBUG [main] JdbcTransaction.openConnection(137) | Opening JDBC Connection
+2018-12-25 11:01:34,784 DEBUG [main] PooledDataSource.popConnection(406) | Created connection 15112048.
+2018-12-25 11:01:34,784 DEBUG [main] JdbcTransaction.setDesiredAutoCommit(101) | Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@e69770]
+2018-12-25 11:01:34,786 DEBUG [main] selectUserByParms.debug(159) | ==>  Preparing: select * from User where account=? 
+2018-12-25 11:01:34,810 DEBUG [main] selectUserByParms.debug(159) | ==> Parameters: root1(String)
+2018-12-25 11:01:34,820 TRACE [main] selectUserByParms.trace(165) | <==    Columns: id, account, money, name, password, version
+2018-12-25 11:01:34,820 TRACE [main] selectUserByParms.trace(165) | <==        Row: 1, root1, 1, Thu Nov 29 12:18:48 CST 2018, 123, 1
+2018-12-25 11:01:34,821 DEBUG [main] selectUserByParms.debug(159) | <==      Total: 1
+2018-12-25 11:01:34,821 DEBUG [main] JdbcTransaction.resetAutoCommit(123) | Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@e69770]
+2018-12-25 11:01:34,822 DEBUG [main] JdbcTransaction.close(91) | Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@e69770]
+2018-12-25 11:01:34,822 DEBUG [main] PooledDataSource.pushConnection(363) | Returned connection 15112048 to pool.
+2018-12-25 11:01:42,942 DEBUG [main] LogFactory.setImplementation(135) | Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2018-12-25 11:01:43,091 DEBUG [main] PooledDataSource.forceCloseAll(335) | PooledDataSource forcefully closed/removed all connections.
+2018-12-25 11:01:43,093 DEBUG [main] PooledDataSource.forceCloseAll(335) | PooledDataSource forcefully closed/removed all connections.
+2018-12-25 11:01:43,093 DEBUG [main] PooledDataSource.forceCloseAll(335) | PooledDataSource forcefully closed/removed all connections.
+2018-12-25 11:01:43,093 DEBUG [main] PooledDataSource.forceCloseAll(335) | PooledDataSource forcefully closed/removed all connections.
+2018-12-25 11:01:43,207 DEBUG [main] JdbcTransaction.openConnection(137) | Opening JDBC Connection
+2018-12-25 11:01:43,397 DEBUG [main] PooledDataSource.popConnection(406) | Created connection 15112048.
+2018-12-25 11:01:43,398 DEBUG [main] JdbcTransaction.setDesiredAutoCommit(101) | Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@e69770]
+2018-12-25 11:01:43,400 DEBUG [main] selectUserByParms.debug(159) | ==>  Preparing: select * from User where account=? 
+2018-12-25 11:01:43,424 DEBUG [main] selectUserByParms.debug(159) | ==> Parameters: root1(String)
+2018-12-25 11:01:43,434 TRACE [main] selectUserByParms.trace(165) | <==    Columns: id, account, money, name, password, version
+2018-12-25 11:01:43,434 TRACE [main] selectUserByParms.trace(165) | <==        Row: 1, root1, 1, Thu Nov 29 12:18:48 CST 2018, 123, 1
+2018-12-25 11:01:43,435 DEBUG [main] selectUserByParms.debug(159) | <==      Total: 1
+2018-12-25 11:01:43,436 DEBUG [main] JdbcTransaction.resetAutoCommit(123) | Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@e69770]
+2018-12-25 11:01:43,436 DEBUG [main] JdbcTransaction.close(91) | Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@e69770]
+2018-12-25 11:01:43,436 DEBUG [main] PooledDataSource.pushConnection(363) | Returned connection 15112048 to pool.
+2018-12-25 11:02:18,398 DEBUG [main] LogFactory.setImplementation(135) | Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2018-12-25 11:02:18,555 DEBUG [main] PooledDataSource.forceCloseAll(335) | PooledDataSource forcefully closed/removed all connections.
+2018-12-25 11:02:18,557 DEBUG [main] PooledDataSource.forceCloseAll(335) | PooledDataSource forcefully closed/removed all connections.
+2018-12-25 11:02:18,557 DEBUG [main] PooledDataSource.forceCloseAll(335) | PooledDataSource forcefully closed/removed all connections.
+2018-12-25 11:02:18,557 DEBUG [main] PooledDataSource.forceCloseAll(335) | PooledDataSource forcefully closed/removed all connections.
+2018-12-25 11:03:58,937 DEBUG [main] JdbcTransaction.openConnection(137) | Opening JDBC Connection
+2018-12-25 11:03:59,333 DEBUG [main] PooledDataSource.popConnection(406) | Created connection 22084587.
+2018-12-25 11:03:59,334 DEBUG [main] JdbcTransaction.setDesiredAutoCommit(101) | Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@150fbeb]
+2018-12-25 11:03:59,337 DEBUG [main] selectUserByParms.debug(159) | ==>  Preparing: select * from User where account=? 
+2018-12-25 11:04:06,096 DEBUG [main] selectUserByParms.debug(159) | ==> Parameters: root1(String)
+2018-12-25 11:04:06,243 TRACE [main] selectUserByParms.trace(165) | <==    Columns: id, account, money, name, password, version
+2018-12-25 11:04:06,244 TRACE [main] selectUserByParms.trace(165) | <==        Row: 1, root1, 1, Thu Nov 29 12:18:48 CST 2018, 123, 1
+2018-12-25 11:04:06,247 DEBUG [main] selectUserByParms.debug(159) | <==      Total: 1
+2018-12-25 13:56:05,134 DEBUG [main] LogFactory.setImplementation(135) | Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2018-12-25 13:56:05,281 DEBUG [main] PooledDataSource.forceCloseAll(335) | PooledDataSource forcefully closed/removed all connections.
+2018-12-25 13:56:05,282 DEBUG [main] PooledDataSource.forceCloseAll(335) | PooledDataSource forcefully closed/removed all connections.
+2018-12-25 13:56:05,283 DEBUG [main] PooledDataSource.forceCloseAll(335) | PooledDataSource forcefully closed/removed all connections.
+2018-12-25 13:56:05,283 DEBUG [main] PooledDataSource.forceCloseAll(335) | PooledDataSource forcefully closed/removed all connections.
+2018-12-25 14:10:24,400 DEBUG [main] LogFactory.setImplementation(135) | Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2018-12-25 14:10:24,557 DEBUG [main] PooledDataSource.forceCloseAll(335) | PooledDataSource forcefully closed/removed all connections.
+2018-12-25 14:10:24,559 DEBUG [main] PooledDataSource.forceCloseAll(335) | PooledDataSource forcefully closed/removed all connections.
+2018-12-25 14:10:24,559 DEBUG [main] PooledDataSource.forceCloseAll(335) | PooledDataSource forcefully closed/removed all connections.
+2018-12-25 14:10:24,559 DEBUG [main] PooledDataSource.forceCloseAll(335) | PooledDataSource forcefully closed/removed all connections.
+2018-12-25 14:25:49,159 DEBUG [main] LogFactory.setImplementation(135) | Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2018-12-25 14:25:49,317 DEBUG [main] PooledDataSource.forceCloseAll(335) | PooledDataSource forcefully closed/removed all connections.
+2018-12-25 14:25:49,318 DEBUG [main] PooledDataSource.forceCloseAll(335) | PooledDataSource forcefully closed/removed all connections.
+2018-12-25 14:25:49,318 DEBUG [main] PooledDataSource.forceCloseAll(335) | PooledDataSource forcefully closed/removed all connections.
+2018-12-25 14:25:49,318 DEBUG [main] PooledDataSource.forceCloseAll(335) | PooledDataSource forcefully closed/removed all connections.
