@@ -1,0 +1,177 @@
+2018-12-19 13:19:38,958 DEBUG [main] LogFactory.setImplementation(135) | Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2018-12-19 13:19:39,172 DEBUG [main] PooledDataSource.forceCloseAll(335) | PooledDataSource forcefully closed/removed all connections.
+2018-12-19 13:19:39,174 DEBUG [main] PooledDataSource.forceCloseAll(335) | PooledDataSource forcefully closed/removed all connections.
+2018-12-19 13:19:39,174 DEBUG [main] PooledDataSource.forceCloseAll(335) | PooledDataSource forcefully closed/removed all connections.
+2018-12-19 13:19:39,174 DEBUG [main] PooledDataSource.forceCloseAll(335) | PooledDataSource forcefully closed/removed all connections.
+2018-12-19 13:20:06,708 DEBUG [main] LogFactory.setImplementation(135) | Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2018-12-19 13:20:06,805 DEBUG [main] PooledDataSource.forceCloseAll(335) | PooledDataSource forcefully closed/removed all connections.
+2018-12-19 13:20:06,806 DEBUG [main] PooledDataSource.forceCloseAll(335) | PooledDataSource forcefully closed/removed all connections.
+2018-12-19 13:20:06,806 DEBUG [main] PooledDataSource.forceCloseAll(335) | PooledDataSource forcefully closed/removed all connections.
+2018-12-19 13:20:06,807 DEBUG [main] PooledDataSource.forceCloseAll(335) | PooledDataSource forcefully closed/removed all connections.
+2018-12-19 13:20:06,888 DEBUG [main] JdbcTransaction.openConnection(137) | Opening JDBC Connection
+2018-12-19 13:20:07,670 DEBUG [main] PooledDataSource.popConnection(406) | Created connection 16699734.
+2018-12-19 13:20:07,670 DEBUG [main] JdbcTransaction.setDesiredAutoCommit(101) | Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@fed156]
+2018-12-19 13:20:07,672 DEBUG [main] selectUserByParms.debug(159) | ==>  Preparing: select * from User where account=? 
+2018-12-19 13:20:07,692 DEBUG [main] selectUserByParms.debug(159) | ==> Parameters: root1(String)
+2018-12-19 13:20:07,734 TRACE [main] selectUserByParms.trace(165) | <==    Columns: id, account, money, name, password, version
+2018-12-19 13:20:07,734 TRACE [main] selectUserByParms.trace(165) | <==        Row: 1, root1, 1, Thu Nov 29 12:18:48 CST 2018, 123, 1
+2018-12-19 13:20:07,735 DEBUG [main] selectUserByParms.debug(159) | <==      Total: 1
+2018-12-19 13:20:07,736 DEBUG [main] JdbcTransaction.resetAutoCommit(123) | Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@fed156]
+2018-12-19 13:20:07,742 DEBUG [main] JdbcTransaction.close(91) | Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@fed156]
+2018-12-19 13:20:07,742 DEBUG [main] PooledDataSource.pushConnection(363) | Returned connection 16699734 to pool.
+2018-12-19 13:21:24,045 DEBUG [main] LogFactory.setImplementation(135) | Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2018-12-19 13:21:24,132 DEBUG [main] PooledDataSource.forceCloseAll(335) | PooledDataSource forcefully closed/removed all connections.
+2018-12-19 13:21:24,134 DEBUG [main] PooledDataSource.forceCloseAll(335) | PooledDataSource forcefully closed/removed all connections.
+2018-12-19 13:21:24,134 DEBUG [main] PooledDataSource.forceCloseAll(335) | PooledDataSource forcefully closed/removed all connections.
+2018-12-19 13:21:24,134 DEBUG [main] PooledDataSource.forceCloseAll(335) | PooledDataSource forcefully closed/removed all connections.
+2018-12-19 13:21:24,209 DEBUG [main] JdbcTransaction.openConnection(137) | Opening JDBC Connection
+2018-12-19 13:21:24,427 DEBUG [main] PooledDataSource.popConnection(406) | Created connection 16699734.
+2018-12-19 13:21:24,428 DEBUG [main] JdbcTransaction.setDesiredAutoCommit(101) | Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@fed156]
+2018-12-19 13:21:24,429 DEBUG [main] selectUserByParms.debug(159) | ==>  Preparing: select * from User where account=? 
+2018-12-19 13:21:24,450 DEBUG [main] selectUserByParms.debug(159) | ==> Parameters: root1(String)
+2018-12-19 13:21:24,462 TRACE [main] selectUserByParms.trace(165) | <==    Columns: id, account, money, name, password, version
+2018-12-19 13:21:24,462 TRACE [main] selectUserByParms.trace(165) | <==        Row: 1, root1, 1, Thu Nov 29 12:18:48 CST 2018, 123, 1
+2018-12-19 13:21:24,463 DEBUG [main] selectUserByParms.debug(159) | <==      Total: 1
+2018-12-19 13:21:24,464 DEBUG [main] JdbcTransaction.resetAutoCommit(123) | Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@fed156]
+2018-12-19 13:21:24,465 DEBUG [main] JdbcTransaction.close(91) | Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@fed156]
+2018-12-19 13:21:24,465 DEBUG [main] PooledDataSource.pushConnection(363) | Returned connection 16699734 to pool.
+2018-12-19 13:32:07,652 DEBUG [main] LogFactory.setImplementation(135) | Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2018-12-19 13:32:07,742 DEBUG [main] PooledDataSource.forceCloseAll(335) | PooledDataSource forcefully closed/removed all connections.
+2018-12-19 13:32:07,743 DEBUG [main] PooledDataSource.forceCloseAll(335) | PooledDataSource forcefully closed/removed all connections.
+2018-12-19 13:32:07,744 DEBUG [main] PooledDataSource.forceCloseAll(335) | PooledDataSource forcefully closed/removed all connections.
+2018-12-19 13:32:07,744 DEBUG [main] PooledDataSource.forceCloseAll(335) | PooledDataSource forcefully closed/removed all connections.
+2018-12-19 13:32:07,824 DEBUG [main] JdbcTransaction.openConnection(137) | Opening JDBC Connection
+2018-12-19 13:32:08,040 DEBUG [main] PooledDataSource.popConnection(406) | Created connection 16699734.
+2018-12-19 13:32:08,040 DEBUG [main] JdbcTransaction.setDesiredAutoCommit(101) | Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@fed156]
+2018-12-19 13:32:08,042 DEBUG [main] selectUserByParms.debug(159) | ==>  Preparing: select * from User where account=? 
+2018-12-19 13:32:08,062 DEBUG [main] selectUserByParms.debug(159) | ==> Parameters: root1(String)
+2018-12-19 13:32:08,073 TRACE [main] selectUserByParms.trace(165) | <==    Columns: id, account, money, name, password, version
+2018-12-19 13:32:08,073 TRACE [main] selectUserByParms.trace(165) | <==        Row: 1, root1, 1, Thu Nov 29 12:18:48 CST 2018, 123, 1
+2018-12-19 13:32:08,075 DEBUG [main] selectUserByParms.debug(159) | <==      Total: 1
+2018-12-19 13:32:08,075 DEBUG [main] JdbcTransaction.resetAutoCommit(123) | Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@fed156]
+2018-12-19 13:32:08,076 DEBUG [main] JdbcTransaction.close(91) | Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@fed156]
+2018-12-19 13:32:08,076 DEBUG [main] PooledDataSource.pushConnection(363) | Returned connection 16699734 to pool.
+2018-12-19 13:35:48,346 DEBUG [main] LogFactory.setImplementation(135) | Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2018-12-19 13:35:48,438 DEBUG [main] PooledDataSource.forceCloseAll(335) | PooledDataSource forcefully closed/removed all connections.
+2018-12-19 13:35:48,439 DEBUG [main] PooledDataSource.forceCloseAll(335) | PooledDataSource forcefully closed/removed all connections.
+2018-12-19 13:35:48,440 DEBUG [main] PooledDataSource.forceCloseAll(335) | PooledDataSource forcefully closed/removed all connections.
+2018-12-19 13:35:48,440 DEBUG [main] PooledDataSource.forceCloseAll(335) | PooledDataSource forcefully closed/removed all connections.
+2018-12-19 13:35:48,519 DEBUG [main] JdbcTransaction.openConnection(137) | Opening JDBC Connection
+2018-12-19 13:35:48,729 DEBUG [main] PooledDataSource.popConnection(406) | Created connection 16699734.
+2018-12-19 13:35:48,729 DEBUG [main] JdbcTransaction.setDesiredAutoCommit(101) | Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@fed156]
+2018-12-19 13:35:48,731 DEBUG [main] selectUserByParms.debug(159) | ==>  Preparing: select * from User where account=? 
+2018-12-19 13:35:48,751 DEBUG [main] selectUserByParms.debug(159) | ==> Parameters: root1(String)
+2018-12-19 13:35:48,759 TRACE [main] selectUserByParms.trace(165) | <==    Columns: id, account, money, name, password, version
+2018-12-19 13:35:48,759 TRACE [main] selectUserByParms.trace(165) | <==        Row: 1, root1, 1, Thu Nov 29 12:18:48 CST 2018, 123, 1
+2018-12-19 13:35:48,760 DEBUG [main] selectUserByParms.debug(159) | <==      Total: 1
+2018-12-19 13:35:48,761 DEBUG [main] JdbcTransaction.resetAutoCommit(123) | Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@fed156]
+2018-12-19 13:35:48,764 DEBUG [main] JdbcTransaction.close(91) | Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@fed156]
+2018-12-19 13:35:48,764 DEBUG [main] PooledDataSource.pushConnection(363) | Returned connection 16699734 to pool.
+2018-12-19 14:24:13,856 DEBUG [main] LogFactory.setImplementation(135) | Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2018-12-19 14:24:13,861 DEBUG [main] VFS.getClass(111) | Class not found: org.jboss.vfs.VFS
+2018-12-19 14:24:13,862 DEBUG [main] JBoss6VFS.setInvalid(142) | JBoss 6 VFS API is not available in this environment.
+2018-12-19 14:24:13,863 DEBUG [main] VFS.getClass(111) | Class not found: org.jboss.vfs.VirtualFile
+2018-12-19 14:24:13,863 DEBUG [main] VFS.createVFS(63) | VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+2018-12-19 14:24:13,864 DEBUG [main] VFS.createVFS(77) | Using VFS adapter org.apache.ibatis.io.DefaultVFS
+2018-12-19 14:24:13,865 DEBUG [main] DefaultVFS.findJarForResource(222) | Find JAR URL: file:/D:/JavaWork/MyBatis/bin/com/source
+2018-12-19 14:24:13,865 DEBUG [main] DefaultVFS.findJarForResource(248) | Not a JAR: file:/D:/JavaWork/MyBatis/bin/com/source
+2018-12-19 14:24:14,035 DEBUG [main] DefaultVFS.list(102) | Reader entry: module
+2018-12-19 14:24:14,036 DEBUG [main] DefaultVFS.list(113) | Listing file:/D:/JavaWork/MyBatis/bin/com/source
+2018-12-19 14:24:14,036 DEBUG [main] DefaultVFS.findJarForResource(222) | Find JAR URL: file:/D:/JavaWork/MyBatis/bin/com/source/module
+2018-12-19 14:24:14,037 DEBUG [main] DefaultVFS.findJarForResource(248) | Not a JAR: file:/D:/JavaWork/MyBatis/bin/com/source/module
+2018-12-19 14:24:14,040 DEBUG [main] DefaultVFS.list(102) | Reader entry: io
+2018-12-19 14:24:14,040 DEBUG [main] DefaultVFS.list(102) | Reader entry: parse
+2018-12-19 14:24:14,040 DEBUG [main] DefaultVFS.list(102) | Reader entry: reflection
+2018-12-19 14:24:14,041 DEBUG [main] DefaultVFS.list(102) | Reader entry: type
+2018-12-19 14:24:14,043 DEBUG [main] DefaultVFS.list(113) | Listing file:/D:/JavaWork/MyBatis/bin/com/source/module
+2018-12-19 14:24:14,043 DEBUG [main] DefaultVFS.findJarForResource(222) | Find JAR URL: file:/D:/JavaWork/MyBatis/bin/com/source/module/io
+2018-12-19 14:24:14,043 DEBUG [main] DefaultVFS.findJarForResource(248) | Not a JAR: file:/D:/JavaWork/MyBatis/bin/com/source/module/io
+2018-12-19 14:24:14,044 DEBUG [main] DefaultVFS.list(102) | Reader entry: Main1219.class
+2018-12-19 14:24:14,044 DEBUG [main] DefaultVFS.list(113) | Listing file:/D:/JavaWork/MyBatis/bin/com/source/module/io
+2018-12-19 14:24:14,044 DEBUG [main] DefaultVFS.findJarForResource(222) | Find JAR URL: file:/D:/JavaWork/MyBatis/bin/com/source/module/io/Main1219.class
+2018-12-19 14:24:14,044 DEBUG [main] DefaultVFS.findJarForResource(248) | Not a JAR: file:/D:/JavaWork/MyBatis/bin/com/source/module/io/Main1219.class
+2018-12-19 14:24:14,045 DEBUG [main] DefaultVFS.list(102) | Reader entry: ����   4 3  com/source/module/io/Main1219  java/lang/Object <init> ()V Code
+2018-12-19 14:24:14,046 DEBUG [main] DefaultVFS.findJarForResource(222) | Find JAR URL: file:/D:/JavaWork/MyBatis/bin/com/source/module/parse
+2018-12-19 14:24:14,046 DEBUG [main] DefaultVFS.findJarForResource(248) | Not a JAR: file:/D:/JavaWork/MyBatis/bin/com/source/module/parse
+2018-12-19 14:24:14,046 DEBUG [main] DefaultVFS.list(102) | Reader entry: Main1217.class
+2018-12-19 14:24:14,047 DEBUG [main] DefaultVFS.list(102) | Reader entry: Main1217placeholder.class
+2018-12-19 14:24:14,047 DEBUG [main] DefaultVFS.list(113) | Listing file:/D:/JavaWork/MyBatis/bin/com/source/module/parse
+2018-12-19 14:24:14,047 DEBUG [main] DefaultVFS.findJarForResource(222) | Find JAR URL: file:/D:/JavaWork/MyBatis/bin/com/source/module/parse/Main1217.class
+2018-12-19 14:24:14,047 DEBUG [main] DefaultVFS.findJarForResource(248) | Not a JAR: file:/D:/JavaWork/MyBatis/bin/com/source/module/parse/Main1217.class
+2018-12-19 14:24:14,048 DEBUG [main] DefaultVFS.list(102) | Reader entry: ����   4 �   com/source/module/parse/Main1217  java/lang/Object <init> ()V Code
+2018-12-19 14:24:14,048 DEBUG [main] DefaultVFS.findJarForResource(222) | Find JAR URL: file:/D:/JavaWork/MyBatis/bin/com/source/module/parse/Main1217placeholder.class
+2018-12-19 14:24:14,049 DEBUG [main] DefaultVFS.findJarForResource(248) | Not a JAR: file:/D:/JavaWork/MyBatis/bin/com/source/module/parse/Main1217placeholder.class
+2018-12-19 14:24:14,049 DEBUG [main] DefaultVFS.list(102) | Reader entry: ����   4 5  +com/source/module/parse/Main1217placeholder  java/lang/Object <init> ()V Code
+2018-12-19 14:24:14,049 DEBUG [main] DefaultVFS.findJarForResource(222) | Find JAR URL: file:/D:/JavaWork/MyBatis/bin/com/source/module/reflection
+2018-12-19 14:24:14,050 DEBUG [main] DefaultVFS.findJarForResource(248) | Not a JAR: file:/D:/JavaWork/MyBatis/bin/com/source/module/reflection
+2018-12-19 14:24:14,050 DEBUG [main] DefaultVFS.list(102) | Reader entry: Main1218.class
+2018-12-19 14:24:14,051 DEBUG [main] DefaultVFS.list(113) | Listing file:/D:/JavaWork/MyBatis/bin/com/source/module/reflection
+2018-12-19 14:24:14,051 DEBUG [main] DefaultVFS.findJarForResource(222) | Find JAR URL: file:/D:/JavaWork/MyBatis/bin/com/source/module/reflection/Main1218.class
+2018-12-19 14:24:14,051 DEBUG [main] DefaultVFS.findJarForResource(248) | Not a JAR: file:/D:/JavaWork/MyBatis/bin/com/source/module/reflection/Main1218.class
+2018-12-19 14:24:14,051 DEBUG [main] DefaultVFS.list(102) | Reader entry: ����   4 J  %com/source/module/reflection/Main1218  java/lang/Object <init> ()V Code
+2018-12-19 14:24:14,051 DEBUG [main] DefaultVFS.findJarForResource(222) | Find JAR URL: file:/D:/JavaWork/MyBatis/bin/com/source/module/type
+2018-12-19 14:24:14,052 DEBUG [main] DefaultVFS.findJarForResource(248) | Not a JAR: file:/D:/JavaWork/MyBatis/bin/com/source/module/type
+2018-12-19 14:24:14,052 DEBUG [main] DefaultVFS.list(102) | Reader entry: Main1219.class
+2018-12-19 14:24:14,053 DEBUG [main] DefaultVFS.list(113) | Listing file:/D:/JavaWork/MyBatis/bin/com/source/module/type
+2018-12-19 14:24:14,053 DEBUG [main] DefaultVFS.findJarForResource(222) | Find JAR URL: file:/D:/JavaWork/MyBatis/bin/com/source/module/type/Main1219.class
+2018-12-19 14:24:14,053 DEBUG [main] DefaultVFS.findJarForResource(248) | Not a JAR: file:/D:/JavaWork/MyBatis/bin/com/source/module/type/Main1219.class
+2018-12-19 14:24:14,053 DEBUG [main] DefaultVFS.list(102) | Reader entry: ����   4 \  com/source/module/type/Main1219  java/lang/Object <init> ()V Code
+2018-12-19 14:24:14,054 DEBUG [main] ResolverUtil.addIfMatching(256) | Checking to see if class com.source.module.io.Main1219 matches criteria [is assignable to Object]
+2018-12-19 14:24:14,054 DEBUG [main] ResolverUtil.addIfMatching(256) | Checking to see if class com.source.module.parse.Main1217 matches criteria [is assignable to Object]
+2018-12-19 14:24:14,054 DEBUG [main] ResolverUtil.addIfMatching(256) | Checking to see if class com.source.module.parse.Main1217placeholder matches criteria [is assignable to Object]
+2018-12-19 14:24:14,055 DEBUG [main] ResolverUtil.addIfMatching(256) | Checking to see if class com.source.module.reflection.Main1218 matches criteria [is assignable to Object]
+2018-12-19 14:24:14,055 DEBUG [main] ResolverUtil.addIfMatching(256) | Checking to see if class com.source.module.type.Main1219 matches criteria [is assignable to Object]
+2018-12-19 14:25:04,989 DEBUG [main] LogFactory.setImplementation(135) | Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2018-12-19 14:25:04,994 DEBUG [main] VFS.getClass(111) | Class not found: org.jboss.vfs.VFS
+2018-12-19 14:25:04,996 DEBUG [main] JBoss6VFS.setInvalid(142) | JBoss 6 VFS API is not available in this environment.
+2018-12-19 14:25:04,997 DEBUG [main] VFS.getClass(111) | Class not found: org.jboss.vfs.VirtualFile
+2018-12-19 14:25:04,997 DEBUG [main] VFS.createVFS(63) | VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+2018-12-19 14:25:04,998 DEBUG [main] VFS.createVFS(77) | Using VFS adapter org.apache.ibatis.io.DefaultVFS
+2018-12-19 14:25:04,998 DEBUG [main] DefaultVFS.findJarForResource(222) | Find JAR URL: file:/D:/JavaWork/MyBatis/bin/com/source
+2018-12-19 14:25:04,998 DEBUG [main] DefaultVFS.findJarForResource(248) | Not a JAR: file:/D:/JavaWork/MyBatis/bin/com/source
+2018-12-19 14:25:05,028 DEBUG [main] DefaultVFS.list(102) | Reader entry: module
+2018-12-19 14:25:05,028 DEBUG [main] DefaultVFS.list(113) | Listing file:/D:/JavaWork/MyBatis/bin/com/source
+2018-12-19 14:25:05,029 DEBUG [main] DefaultVFS.findJarForResource(222) | Find JAR URL: file:/D:/JavaWork/MyBatis/bin/com/source/module
+2018-12-19 14:25:05,029 DEBUG [main] DefaultVFS.findJarForResource(248) | Not a JAR: file:/D:/JavaWork/MyBatis/bin/com/source/module
+2018-12-19 14:25:05,031 DEBUG [main] DefaultVFS.list(102) | Reader entry: io
+2018-12-19 14:25:05,031 DEBUG [main] DefaultVFS.list(102) | Reader entry: parse
+2018-12-19 14:25:05,031 DEBUG [main] DefaultVFS.list(102) | Reader entry: reflection
+2018-12-19 14:25:05,031 DEBUG [main] DefaultVFS.list(102) | Reader entry: type
+2018-12-19 14:25:05,032 DEBUG [main] DefaultVFS.list(113) | Listing file:/D:/JavaWork/MyBatis/bin/com/source/module
+2018-12-19 14:25:05,032 DEBUG [main] DefaultVFS.findJarForResource(222) | Find JAR URL: file:/D:/JavaWork/MyBatis/bin/com/source/module/io
+2018-12-19 14:25:05,033 DEBUG [main] DefaultVFS.findJarForResource(248) | Not a JAR: file:/D:/JavaWork/MyBatis/bin/com/source/module/io
+2018-12-19 14:25:05,033 DEBUG [main] DefaultVFS.list(102) | Reader entry: Main1219.class
+2018-12-19 14:25:05,033 DEBUG [main] DefaultVFS.list(113) | Listing file:/D:/JavaWork/MyBatis/bin/com/source/module/io
+2018-12-19 14:25:05,033 DEBUG [main] DefaultVFS.findJarForResource(222) | Find JAR URL: file:/D:/JavaWork/MyBatis/bin/com/source/module/io/Main1219.class
+2018-12-19 14:25:05,034 DEBUG [main] DefaultVFS.findJarForResource(248) | Not a JAR: file:/D:/JavaWork/MyBatis/bin/com/source/module/io/Main1219.class
+2018-12-19 14:25:05,034 DEBUG [main] DefaultVFS.list(102) | Reader entry: ����   4 J  com/source/module/io/Main1219  java/lang/Object <init> ()V Code
+2018-12-19 14:25:05,034 DEBUG [main] DefaultVFS.findJarForResource(222) | Find JAR URL: file:/D:/JavaWork/MyBatis/bin/com/source/module/parse
+2018-12-19 14:25:05,035 DEBUG [main] DefaultVFS.findJarForResource(248) | Not a JAR: file:/D:/JavaWork/MyBatis/bin/com/source/module/parse
+2018-12-19 14:25:05,035 DEBUG [main] DefaultVFS.list(102) | Reader entry: Main1217.class
+2018-12-19 14:25:05,035 DEBUG [main] DefaultVFS.list(102) | Reader entry: Main1217placeholder.class
+2018-12-19 14:25:05,036 DEBUG [main] DefaultVFS.list(113) | Listing file:/D:/JavaWork/MyBatis/bin/com/source/module/parse
+2018-12-19 14:25:05,036 DEBUG [main] DefaultVFS.findJarForResource(222) | Find JAR URL: file:/D:/JavaWork/MyBatis/bin/com/source/module/parse/Main1217.class
+2018-12-19 14:25:05,036 DEBUG [main] DefaultVFS.findJarForResource(248) | Not a JAR: file:/D:/JavaWork/MyBatis/bin/com/source/module/parse/Main1217.class
+2018-12-19 14:25:05,037 DEBUG [main] DefaultVFS.list(102) | Reader entry: ����   4 �   com/source/module/parse/Main1217  java/lang/Object <init> ()V Code
+2018-12-19 14:25:05,037 DEBUG [main] DefaultVFS.findJarForResource(222) | Find JAR URL: file:/D:/JavaWork/MyBatis/bin/com/source/module/parse/Main1217placeholder.class
+2018-12-19 14:25:05,037 DEBUG [main] DefaultVFS.findJarForResource(248) | Not a JAR: file:/D:/JavaWork/MyBatis/bin/com/source/module/parse/Main1217placeholder.class
+2018-12-19 14:25:05,038 DEBUG [main] DefaultVFS.list(102) | Reader entry: ����   4 5  +com/source/module/parse/Main1217placeholder  java/lang/Object <init> ()V Code
+2018-12-19 14:25:05,038 DEBUG [main] DefaultVFS.findJarForResource(222) | Find JAR URL: file:/D:/JavaWork/MyBatis/bin/com/source/module/reflection
+2018-12-19 14:25:05,038 DEBUG [main] DefaultVFS.findJarForResource(248) | Not a JAR: file:/D:/JavaWork/MyBatis/bin/com/source/module/reflection
+2018-12-19 14:25:05,039 DEBUG [main] DefaultVFS.list(102) | Reader entry: Main1218.class
+2018-12-19 14:25:05,039 DEBUG [main] DefaultVFS.list(113) | Listing file:/D:/JavaWork/MyBatis/bin/com/source/module/reflection
+2018-12-19 14:25:05,039 DEBUG [main] DefaultVFS.findJarForResource(222) | Find JAR URL: file:/D:/JavaWork/MyBatis/bin/com/source/module/reflection/Main1218.class
+2018-12-19 14:25:05,039 DEBUG [main] DefaultVFS.findJarForResource(248) | Not a JAR: file:/D:/JavaWork/MyBatis/bin/com/source/module/reflection/Main1218.class
+2018-12-19 14:25:05,040 DEBUG [main] DefaultVFS.list(102) | Reader entry: ����   4 J  %com/source/module/reflection/Main1218  java/lang/Object <init> ()V Code
+2018-12-19 14:25:05,040 DEBUG [main] DefaultVFS.findJarForResource(222) | Find JAR URL: file:/D:/JavaWork/MyBatis/bin/com/source/module/type
+2018-12-19 14:25:05,040 DEBUG [main] DefaultVFS.findJarForResource(248) | Not a JAR: file:/D:/JavaWork/MyBatis/bin/com/source/module/type
+2018-12-19 14:25:05,040 DEBUG [main] DefaultVFS.list(102) | Reader entry: Main1219.class
+2018-12-19 14:25:05,041 DEBUG [main] DefaultVFS.list(113) | Listing file:/D:/JavaWork/MyBatis/bin/com/source/module/type
+2018-12-19 14:25:05,041 DEBUG [main] DefaultVFS.findJarForResource(222) | Find JAR URL: file:/D:/JavaWork/MyBatis/bin/com/source/module/type/Main1219.class
+2018-12-19 14:25:05,041 DEBUG [main] DefaultVFS.findJarForResource(248) | Not a JAR: file:/D:/JavaWork/MyBatis/bin/com/source/module/type/Main1219.class
+2018-12-19 14:25:05,041 DEBUG [main] DefaultVFS.list(102) | Reader entry: ����   4 \  com/source/module/type/Main1219  java/lang/Object <init> ()V Code
+2018-12-19 14:25:05,042 DEBUG [main] ResolverUtil.addIfMatching(256) | Checking to see if class com.source.module.io.Main1219 matches criteria [is assignable to Object]
+2018-12-19 14:25:05,042 DEBUG [main] ResolverUtil.addIfMatching(256) | Checking to see if class com.source.module.parse.Main1217 matches criteria [is assignable to Object]
+2018-12-19 14:25:05,042 DEBUG [main] ResolverUtil.addIfMatching(256) | Checking to see if class com.source.module.parse.Main1217placeholder matches criteria [is assignable to Object]
+2018-12-19 14:25:05,043 DEBUG [main] ResolverUtil.addIfMatching(256) | Checking to see if class com.source.module.reflection.Main1218 matches criteria [is assignable to Object]
+2018-12-19 14:25:05,043 DEBUG [main] ResolverUtil.addIfMatching(256) | Checking to see if class com.source.module.type.Main1219 matches criteria [is assignable to Object]
